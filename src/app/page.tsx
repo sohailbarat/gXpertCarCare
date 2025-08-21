@@ -2,6 +2,7 @@ import React from "react";
 import { Metadata } from "next";
 import Wrapper from "@/layouts/Wrapper";
 import HomeOne from "@/components/homes/home";
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: 'Car Repair & Auto Services Next js Template',
