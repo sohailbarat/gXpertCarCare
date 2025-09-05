@@ -67,7 +67,7 @@ const ContactFormHomeThree = () => {
                                 </svg>
                             </span>
                             <p className="ak-font-24 ak-primary-font ak-white-color ak-bold">
-                                example@email.com
+                                techgul@yahoo.com
                             </p>
                         </div>
                         <div className="d-flex align-items-center gap-3 mb-3">
@@ -104,7 +104,7 @@ const ContactFormHomeThree = () => {
                                 </svg>
                             </span>
                             <p className="ak-font-24 ak-primary-font ak-white-color ak-bold">
-                                Sun - Thu: Open 27/7
+                                Mon - Sat: 9:00 AM - 6:00 PM
                             </p>
                         </div>
                     </div>

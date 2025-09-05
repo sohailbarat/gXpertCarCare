@@ -71,15 +71,15 @@ const FaqArea = () => {
                                 <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
                             </a>
                         </div>
-                        <h3>(406) 555-0120</h3>
+                        <h3>(587) 329-2528</h3>
                     </div>
                     <div className="d-flex align-items-center gap-3">
                         <div className="heartbeat-icon">
-                            <a href="emailto:example@email.com">
+                            <a href="emailto:techgul@yahoo.com">
                                 <span className="ak-heartbeat-btn"><img src="assets/img/email.svg" alt="..." /></span>
                             </a>
                         </div>
-                        <h3> example@email.com</h3>
+                        <h3> techgul@yahoo.com</h3>
                     </div>
                     <div className="ak-location">
                         <a href="#" className=" d-flex gap-2 text-hover-animaiton">
@@ -129,7 +129,7 @@ const FaqArea = () => {
                                     </defs>
                                 </svg>
                             </span>
-                            <span>Sun - Thu: Open 27/7</span>
+                            <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
                         </a>
                     </div>
                 </div>

@@ -61,7 +61,7 @@ const FooterOne = ({style_2}: any) => {
                                     <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
                                 </a>
                             </div>
-                            <a href="tel:(406)555-0120" className="phone text-hover-animaiton white">(406) 555-0120</a>
+                            <a href="tel:(406)555-0120" className="phone text-hover-animaiton white"> (587) 329-2528</a>
                         </div>
                     </div>
                     <div className="footer-menu-one" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
@@ -97,7 +97,7 @@ const FooterOne = ({style_2}: any) => {
                             901 N Pitt Str., Suite 170
                             Alexandria, NY, USA
                         </a>
-                        <a href="mailto:example@email.com" className="email">
+                        <a href="mailto:techgul@yahoo.com" className="email">
                             <span className="me-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18"
                                     fill="none">
@@ -123,7 +123,7 @@ const FooterOne = ({style_2}: any) => {
                                     </defs>
                                 </svg>
                             </span>
-                            example@email.com
+                            techgul@yahoo.com
                         </a>
                         <p className="date">
                             <span className="me-1">
@@ -158,7 +158,7 @@ const FooterOne = ({style_2}: any) => {
                                     </defs>
                                 </svg>
                             </span>
-                            Sun - Thu: Open 27/7
+                            Mon - Sat: 9:00 AM - 6:00 PM
                         </p>
                     </div>
                 </div>

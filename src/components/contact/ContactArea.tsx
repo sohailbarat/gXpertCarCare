@@ -105,8 +105,7 @@ const ContactArea = () => {
                             </svg>
                         </div>
                         <div>
-                            <p>example@email.com</p>
-                            <p>crasauto@email.com</p>
+                            <p>techgul@yahoo.com</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +177,7 @@ const ContactArea = () => {
                             </svg>
                         </div>
                         <div>
-                            <p>Sun - Thu: Open 27/7</p>
+                            <p>Mon - Sat: 9:00 AM - 6:00 PM</p>
                         </div>
                     </div>
                 </div>

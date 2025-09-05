@@ -5,9 +5,9 @@ import HomeOne from "@/components/homes/home";
 import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
-  title: 'Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'G. Xpert Car Care',
+  description: 'Car Repair & Auto Services',
+  // metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };
 
 const index = () => {

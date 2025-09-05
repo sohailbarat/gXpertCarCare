@@ -203,7 +203,7 @@ const HeroHomeOne = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <p className="ak-font-18 ak-white-color ak-semi-bold">example@email.com</p>
+                        <p className="ak-font-18 ak-white-color ak-semi-bold">techgul@yahoo.com</p>
                     </div>
                 </a>
                 <a href="#">
@@ -224,7 +224,7 @@ const HeroHomeOne = () => {
                                     fill="white" />
                             </svg>
                         </div>
-                        <p className="ak-font-18 ak-white-color ak-semi-bold">123 Maple Street Toronto, On, Canada</p>
+                        <p className="ak-font-18 ak-white-color ak-semi-bold">2423 27 Ave NE, Calgary, AB T2E 8L2</p>
                     </div>
                 </a>
                 <div className="d-flex align-items-center gap-2">
@@ -264,7 +264,7 @@ const HeroHomeOne = () => {
                         </svg>
 
                     </div>
-                    <p className="ak-font-18 ak-white-color ak-semi-bold">Sun - Thu: Open 27/7</p>
+                    <p className="ak-font-18 ak-white-color ak-semi-bold">Mon - Sat: 9:00 AM - 6:00 PM</p>
                 </div>
             </div>
         </div>

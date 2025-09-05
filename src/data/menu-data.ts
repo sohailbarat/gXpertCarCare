@@ -1,23 +1,8 @@
 const menu_data = [
 	{
 		title: "Home",
-		link: "#", 
-		has_dropdown: true,
-    sub_menus: [
-			{
-				title: "Main Home",
-				link: "/",
-			},
-			{
-				title: "Car Workshop",
-				link: "/home-2",
-			},
-			{
-				title: "Auto Repair",
-				link: "/home-3",
-			},
-		],
-
+		link: "/", 
+		has_dropdown: false,
 	},
 	{
 		title: "About",
@@ -26,86 +11,59 @@ const menu_data = [
 
 	},
 	{
-		title: "Service",
-		link: "#", 
-		has_dropdown: true,
-		sub_menus: [
-			{
-				title: "Service",
-				link: "/service",
-			},
-			{
-				title: "Service Two",
-				link: "/service-two",
-			},
-			{
-				title: "Service Single",
-				link: "/services-single",
-			},
-		],
+		title: "Services",
+		link: "/service-two", 
+		has_dropdown: false
 	},
 	{
-		title: "Blog",
-		link: "#", 
-		has_dropdown: true,
-    sub_menus: [
-			{
-				title: "Blog",
-				link: "/blog",
-			},
-			{
-				title: "Blog Single",
-				link: "/blog-single",
-			},
-		],
+		title: "Appointment",
+		link: "/appointment", 
+		has_dropdown: false
 	},
-	{
-		title: "Pages",
-		link: "#", 
-		has_dropdown: true,
-		sub_menus: [
-			{
-				title: "Team",
-				link: "/team",
-			},
-			{
-				title: "Team Single",
-				link: "/team-single",
-			},
-			{
-				title: "Appointment",
-				link: "/appointment",
-			},
-			{
-				title: "Pricing",
-				link: "/pricing",
-			},
-			{
-				title: "Testimonial",
-				link: "/testimonial",
-			},
-			{
-				title: "Gallery",
-				link: "/gallery",
-			},
-			{
-				title: "Video Gallery",
-				link: "/video-gallery",
-			},
-			{
-				title: "Faq",
-				link: "/faq",
-			},
-			{
-				title: "Comming Soon",
-				link: "/comming-soon",
-			},
-			{
-				title: "404 || Error",
-				link: "/404",
-			},
-		],
-	},
+	// {
+	// 	title: "Testimonial",
+	// 	link: "/testimonial", 
+	// 	has_dropdown: false
+	// },
+	// {
+	// 	title: "Pages",
+	// 	link: "#", 
+	// 	has_dropdown: true,
+	// 	sub_menus: [
+	// 		{
+	// 			title: "Appointment",
+	// 			link: "/appointment",
+	// 		},
+	// 		{
+	// 			title: "Pricing",
+	// 			link: "/pricing",
+	// 		},
+	// 		{
+	// 			title: "Testimonial",
+	// 			link: "/testimonial",
+	// 		},
+	// 		{
+	// 			title: "Gallery",
+	// 			link: "/gallery",
+	// 		},
+	// 		{
+	// 			title: "Video Gallery",
+	// 			link: "/video-gallery",
+	// 		},
+	// 		{
+	// 			title: "Faq",
+	// 			link: "/faq",
+	// 		},
+	// 		{
+	// 			title: "Comming Soon",
+	// 			link: "/comming-soon",
+	// 		},
+	// 		{
+	// 			title: "404 || Error",
+	// 			link: "/404",
+	// 		},
+	// 	],
+	// },
 	{
 		title: "Contact",
 		link: "/contact", 

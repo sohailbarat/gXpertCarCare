@@ -85,7 +85,7 @@ const HeaderOne = () => {
                                 <div className="heartbeat-icon">
                                     <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
                                 </div>
-                                <h6> 1-800-915-6271</h6>
+                                <h6> 1-587-329-2528 </h6>
                             </div>
                         </a>
                     </div>
