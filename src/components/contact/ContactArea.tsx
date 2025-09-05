@@ -145,7 +145,7 @@ const ContactArea = () => {
                             </svg>
                         </div>
                         <div>
-                            <p>(406) 555-0120</p>
+                            <p>(587) 329-2528</p>
                         </div>
                     </div>
                 </div>

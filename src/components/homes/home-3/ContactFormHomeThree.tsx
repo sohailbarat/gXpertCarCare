@@ -37,7 +37,7 @@ const ContactFormHomeThree = () => {
                                 </svg>
                             </span>
                             <p className="ak-font-24 ak-primary-font ak-white-color ak-bold">
-                                (406) 555-0120
+                                (587) 329-2528
                             </p>
                         </div>
                         <div className="d-flex align-items-center gap-3 mb-3">
