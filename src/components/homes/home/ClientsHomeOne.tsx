@@ -11,7 +11,7 @@ const ClientsHomeOne = () => {
     <>
       <div className="ak-height-125 ak-height-lg-80"></div>
     <div className="container">
-      <h4 className="title text-center" style={{marginBottom: '30px'}}>Trusted Client</h4> 
+      <h4 className="title text-center" style={{marginBottom: '30px'}}>Trusted Service for All Leading Car Brands</h4> 
         <Swiper 
             loop={true}
             speed={1000}

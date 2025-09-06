@@ -21,10 +21,7 @@ const ServiceHomeOne = ({style_2}: any) => {
                         </div>
                         <div className="service-info">
                             <h4 className="title">PERFOMANCE CHECK</h4>
-                            <p className="desp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been
-                                the
-                                industry's stan.</p>
+                            <p className="desp">Get a comprehensive performance check to assess your vehicle’s overall condition. We identify potential issues early to keep your car running at peak efficiency and reliability.</p>
                         </div>
                     </div>
                 </div>
@@ -43,10 +40,7 @@ const ServiceHomeOne = ({style_2}: any) => {
                         </div>
                         <div className="service-info">
                             <h4 className="title">AUTO REPAIR</h4>
-                            <p className="desp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been
-                                the
-                                industry's stan.</p>
+                            <p className="desp">From minor fixes to major repairs, our certified technicians handle it all. We offer reliable, honest auto repair services to get you back on the road safely and quickly.</p>
                         </div>
                     </div>
                 </div>
@@ -65,10 +59,7 @@ const ServiceHomeOne = ({style_2}: any) => {
                         </div>
                         <div className="service-info">
                             <h4 className="title">FLEET SERVICES</h4>
-                            <p className="desp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                Ipsum has been
-                                the
-                                industry's stan.</p>
+                            <p className="desp">Keep your business moving with our tailored fleet maintenance and repair solutions. We offer priority service, scheduled maintenance, and reliable support for commercial vehicle fleets.</p>
                         </div>
                     </div>
                 </div>

@@ -13,12 +13,7 @@ const WhoChoosHomeOne = ({style_2}: any) => {
                         <div className="ak-section-heading ak-style-1">
                             <div className="background-text">Feature</div>
                             <h2 className="ak-section-title">Why Choose Us</h2>
-                            <p className="ak-section-subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry.
-                                Lorem
-                                Ipsum has been the industry's stan. Lorem Ipsum is simply dummy text of the printing and
-                                typesetting
-                                industry. Lorem Ipsum has been the industry's stan.</p>
+                            <p className="ak-section-subtitle">We’re committed to honest service, quality workmanship, and customer satisfaction. With certified technicians, transparent pricing, and a full range of automotive services, we treat your vehicle like it’s our own every time.</p>
                         </div>
                         <div className="ak-height-60 ak-height-lg-30"></div>
                         <div className="stroke-heading-text">

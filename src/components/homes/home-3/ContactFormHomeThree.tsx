@@ -67,7 +67,7 @@ const ContactFormHomeThree = () => {
                                 </svg>
                             </span>
                             <p className="ak-font-24 ak-primary-font ak-white-color ak-bold">
-                                techgul@yahoo.com
+                                g.xpertcare@gmail.com
                             </p>
                         </div>
                         <div className="d-flex align-items-center gap-3 mb-3">

@@ -26,9 +26,9 @@ const HomeOne = () => {
       <FunfactHomeOne />
       <ClientsHomeOne />
       <TestimonialHomeOne />
-      <TeamHomeOne />
+      {/* <TeamHomeOne /> */}
       <PriceHomeOne />
-      <BlogHomeOne />
+      {/* <BlogHomeOne /> */}
       <FooterOne />
     </>
   );

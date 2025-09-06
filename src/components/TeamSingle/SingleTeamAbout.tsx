@@ -28,7 +28,7 @@ const SingleTeamAbout = () => {
                         injected humour, or randomised</p>
                     <ul className="address-list">
                         <li><span>Address:</span> 2118 Thornridge Cir, 35624</li>
-                        <li><span>Email: </span>techgul@yahoo.com</li>
+                        <li><span>Email: </span>g.xpertcare@gmail.com</li>
                         <li><span>Phone:</span> +7 (903) 679-96-15</li>
                         <li><span>website:</span> www.website.com</li>
                     </ul>

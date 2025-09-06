@@ -203,7 +203,7 @@ const HeroHomeOne = () => {
                                 </defs>
                             </svg>
                         </div>
-                        <p className="ak-font-18 ak-white-color ak-semi-bold">techgul@yahoo.com</p>
+                        <p className="ak-font-18 ak-white-color ak-semi-bold">g.xpertcare@gmail.com</p>
                     </div>
                 </a>
                 <a href="#">

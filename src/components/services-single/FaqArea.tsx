@@ -75,11 +75,11 @@ const FaqArea = () => {
                     </div>
                     <div className="d-flex align-items-center gap-3">
                         <div className="heartbeat-icon">
-                            <a href="emailto:techgul@yahoo.com">
+                            <a href="emailto:g.xpertcare@gmail.com">
                                 <span className="ak-heartbeat-btn"><img src="assets/img/email.svg" alt="..." /></span>
                             </a>
                         </div>
-                        <h3> techgul@yahoo.com</h3>
+                        <h3>g.xpertcare@gmail.com</h3>
                     </div>
                     <div className="ak-location">
                         <a href="#" className=" d-flex gap-2 text-hover-animaiton">

@@ -4,9 +4,9 @@ import React from 'react';
 import Count from '@/common/Count';
 
 const counters = [
-    { id: 1, number: 10, text: "YEARS OF SERVICE" },
-    { id: 2, number: 256, text: "HAPPY CUSTOMERS" },
-    { id: 3, number: 112, text: "CUSTOMER SATISFACTION" },
+    { id: 1, number: 10, text: "YEARS OF EXPERIENCE" },
+    { id: 2, number: 1256, text: "HAPPY CUSTOMERS" },
+    { id: 3, number: 5430, text: "COFFEES" },
   ];
   
 

@@ -105,7 +105,7 @@ const ContactArea = () => {
                             </svg>
                         </div>
                         <div>
-                            <p>techgul@yahoo.com</p>
+                            <p>g.xpertcare@gmail.com</p>
                         </div>
                     </div>
                 </div>

@@ -13,7 +13,7 @@ const FooterOne = ({style_2}: any) => {
                 {style_2 ? <div className="ak-height-100 ak-height-lg-50"></div> :
                 <>
                 <div className="ak-height-40 ak-height-lg-60"></div>
-                <div className="footer-email" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100"
+                {/* <div className="footer-email" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="100"
                     data-aos-offset="0">
                     <div className="background-text" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
                         Newsletter</div>
@@ -38,7 +38,7 @@ const FooterOne = ({style_2}: any) => {
                             </form>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="ak-height-70 ak-height-lg-30"></div>
                 <div className="primary-color-border"></div>
                 <div className="ak-height-35 ak-height-lg-30"></div>                
@@ -52,8 +52,7 @@ const FooterOne = ({style_2}: any) => {
                 </div>
                 <div className="footer-content">
                     <div className="footer-info" data-aos="fade-up">
-                        <p className="desp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                            Ipsum has been the industry's stan. Lorem Ipsum is.</p>
+                        <p className="desp">We provide expert repairs and reliable service you can trust. Our team ensures your vehicle stays in top condition, giving you peace of mind on every drive.</p>
                         <div className="ak-height-35 ak-height-lg-30"></div>
                         <div className="d-flex align-items-center gap-3">
                             <div className="heartbeat-icon">
@@ -70,11 +69,11 @@ const FooterOne = ({style_2}: any) => {
                             <Link href="/about" className="menu-item text-hover-animaiton white">About</Link>
                             <Link href="/services" className="menu-item text-hover-animaiton white">Services</Link>
                             <Link href="/pricing" className="menu-item text-hover-animaiton white">Pricing</Link>
-                            <Link href="/team" className="menu-item text-hover-animaiton white">Team</Link>
+                            {/* <Link href="/team" className="menu-item text-hover-animaiton white">Team</Link> */}
                             <Link href="/contact" className="menu-item text-hover-animaiton white">Contact Us</Link>
                         </div>
                     </div>
-                    <div className="footer-menu-two" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
+                    {/* <div className="footer-menu-two" data-aos="fade-up" data-aos-delay="100" data-aos-duration="500">
                         <div className="footer-menu">
                             <p className="menu-title">QUICK LINK</p>
                             <Link href="/appointment" className="menu-item text-hover-animaiton white">Appointment</Link>
@@ -82,7 +81,7 @@ const FooterOne = ({style_2}: any) => {
                             <Link href="/faq" className="menu-item text-hover-animaiton white">FA Question</Link>
                             <Link href="/team" className="menu-item text-hover-animaiton white">Team</Link>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="footer-address" data-aos="fade-up" data-aos-delay="150" data-aos-duration="500">
                         <p className="adress-title">LOCATION & CONTACT</p>
                         <a href="#" className="location">
@@ -94,10 +93,9 @@ const FooterOne = ({style_2}: any) => {
                                         fill="white" />
                                 </svg>
                             </span>
-                            901 N Pitt Str., Suite 170
-                            Alexandria, NY, USA
+                            2423 27 Ave NE, Calgary, AB T2E 8L2
                         </a>
-                        <a href="mailto:techgul@yahoo.com" className="email">
+                        <a href="mailto:g.xpertcare@gmail.com" className="email">
                             <span className="me-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18"
                                     fill="none">
@@ -123,7 +121,7 @@ const FooterOne = ({style_2}: any) => {
                                     </defs>
                                 </svg>
                             </span>
-                            techgul@yahoo.com
+                            g.xpertcare@gmail.com
                         </a>
                         <p className="date">
                             <span className="me-1">
