@@ -22,7 +22,7 @@ const About = () => {
       <TestimonialHomeOne />
       <TeamHomeOne />
       <PriceHomeOne />
-      <ClientsHomeOne />
+      {/* <ClientsHomeOne /> */}
 			<CtaAbout />
       <FooterOne />
 		</>

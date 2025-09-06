@@ -11,7 +11,7 @@ const Appointment = () => {
     <HeaderOne />
     <Breadcrumb subtitle="Appointment" />
     <AppointmentForm />
-    <AppointmentFeatur />
+    {/* <AppointmentFeatur /> */}
     <FooterOne />      
     </>
   );

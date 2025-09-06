@@ -24,9 +24,9 @@ const HomeTwo = () => {
       <ServiceTwoArea style_2={true} />
       <FunfactHomeOne style_2={true} />
       <TestimonialHomeOne />
-      <ClientsHomeOne />
+      {/* <ClientsHomeOne /> */}
       <TeamArea style_2={true} />
-      <VideoHomeOne />
+      {/* <VideoHomeOne /> */}
       <PriceHomeOne style_2={true} />
       <BlogHomeOne />
       <AppointmentForm />

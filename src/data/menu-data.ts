@@ -4,17 +4,17 @@ const menu_data = [
 		link: "/", 
 		has_dropdown: false,
 	},
-	{
-		title: "About",
-		link: "/about", 
-		has_dropdown: false,
+	// {
+	// 	title: "About",
+	// 	link: "/about", 
+	// 	has_dropdown: false,
 
-	},
-	{
-		title: "Services",
-		link: "/service-two", 
-		has_dropdown: false
-	},
+	// },
+	// {
+	// 	title: "Services",
+	// 	link: "/service-two", 
+	// 	has_dropdown: false
+	// },
 	{
 		title: "Appointment",
 		link: "/appointment", 

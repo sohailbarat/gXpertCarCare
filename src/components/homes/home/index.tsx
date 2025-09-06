@@ -22,9 +22,9 @@ const HomeOne = () => {
       <ServiceHomeOne />
       <WhoChoosHomeOne />
       <Service2HomeOne />
-      <VideoHomeOne />
+      {/* <VideoHomeOne /> */}
       <FunfactHomeOne />
-      <ClientsHomeOne />
+      {/* <ClientsHomeOne /> */}
       <TestimonialHomeOne />
       {/* <TeamHomeOne /> */}
       <PriceHomeOne />

@@ -8,54 +8,11 @@ const ContactArea = () => {
     <div className="container">
         <div className="contact-content">
             <div className="contact-title-section" data-aos="fade-up" data-aos-delay="700">
-                <h2 className="contact-form-title ak-white-color text-uppercase">Contact Us</h2>
-                <p>Home / Contact</p>
+                {/* <h2 className="contact-form-title ak-white-color text-uppercase">Contact Us</h2>
+                <p>Home / Contact</p> */}
             </div>
             <div className="ak-height-25 ak-height-lg-20"></div>
             <div className="contact-form" data-aos="fade-up" data-aos-delay="750">
-                <div>
-                    <h5 className="mb-3">How can we help?</h5>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                        suffered
-                        alteration in some form, by injected humour</p>
-                    <div className="ak-height-45 ak-height-lg-30"></div>
-                </div>
-                <div id="ak-alert"></div>
-                <form onSubmit={e => e.preventDefault()} id="contact-form">
-                    <div className="from-inputs">
-                        <div className="type_1">
-                            <label htmlFor="name" className="form-label">Full Name</label>
-                            <input type="text" name="name" id="name" required />
-                        </div>
-                        <div className="type_1">
-                            <label htmlFor="email" className="form-label">Email*</label>
-                            <input type="email" name="email" id="email" required />
-                        </div>
-                    </div>
-                    <div className="from-inputs ">
-                        <div className="type_1">
-                            <label htmlFor="topic" className="form-label">Which topic best matches your question?</label>
-                            <input type="text" name="topic" id="topic" required />
-                        </div>
-                        <div className="type_1">
-                            <label htmlFor="subject" className="form-label">Subject</label>
-                            <input type="text" name="subject" id="subject" required />
-                        </div>
-                    </div>
-                    <div className="from-textarea">
-                        <div className="type_1">
-                            <label htmlFor="msg" className="form-label">Your Message*</label>
-                            <textarea name="msg" rows={5} id="msg" required></textarea>
-                        </div>
-                    </div>
-                    {/* <!-- <div className="custom-file">
-                        <label className="custom-file-upload" htmlFor="file">+ <span>Add Attachment</span></label>
-                        <input type="file" id="file" name="attachment" accept=".pdf, .doc, .docx">
-                    </div> --> */}
-
-                    <div className="ak-height-40 ak-height-lg-20"></div>
-                    <button type="submit" id="submit" name="submit" className="common-btn">SEND MESSAGE</button>
-                </form>
             </div>
         </div>
     </div> 
@@ -68,9 +25,7 @@ const ContactArea = () => {
                     <div className="ak-section-heading ak-style-1">
                         <div className="background-text">Contact</div>
                         <h2 className="ak-section-title">Contact</h2>
-                        <p className="ak-section-subtitle">There are many variations of passages of Lorem Ipsum
-                            available,
-                            but the <br /> majority have suffered alteration in some form.
+                        <p className="ak-section-subtitle">At G. Xpert Car Care, we’re always here to help with your automotive needs. Whether you have questions about our services, need a quote, or want to book an appointment, our team is ready to assist you. Reach out to us by phone, email, or by visiting our shop, and we’ll make sure you get the expert care your vehicle deserves.
                         </p>
                     </div>
                 </div>
@@ -121,8 +76,7 @@ const ContactArea = () => {
                             </svg>
                         </div>
                         <div>
-                            <p>901 N Pitt Str., Suite 170 <br />
-                                Alexandria, NY, USA</p>
+                            <p>2423 27 Ave NE, Calgary, AB T2E 8L2</p>
                         </div>
                     </div>
                 </div>

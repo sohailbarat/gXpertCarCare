@@ -27,7 +27,7 @@ const ChooseArea = () => {
                     <div className="stroke-heading-text">
                         <h3 className="ak-stroke-text hover-color-changes">Certified Technicians</h3>
                         <h3 className="ak-stroke-text hover-color-changes">Comprehensive Repair Services</h3>
-                        <h3 className="ak-stroke-text hover-color-changes">900 Five Star Reviews</h3>
+                        {/* <h3 className="ak-stroke-text hover-color-changes">900 Five Star Reviews</h3> */}
                         <h3 className="ak-stroke-text hover-color-changes">Warranty on Repairs</h3>
                     </div>
                     <div className="ak-height-60 ak-height-lg-30"></div>

@@ -27,9 +27,9 @@ const ChoosHomeThree = () => {
                     <h3 className="ak-stroke-text hover-color-changes">
                         Comprehensive Repair Services
                     </h3>
-                    <h3 className="ak-stroke-text hover-color-changes">
+                    {/* <h3 className="ak-stroke-text hover-color-changes">
                         900 Five Star Reviews
-                    </h3>
+                    </h3> */}
                     <h3 className="ak-stroke-text hover-color-changes">
                         Warranty on Repairs
                     </h3>

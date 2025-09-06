@@ -9,15 +9,13 @@ const AppointmentForm = () => {
         <div className="contact-content">
             <div className="contact-title-section" data-aos="fade-up" data-aos-delay="700">
                 <h2 className="contact-form-title ak-white-color text-uppercase">Request for a appointment</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the
-                    industry's stan.</p>
+                <p>Booking your appointment at G. Xpert Car Care is quick and hassle-free. Whether you need an oil change, tire service, wheel alignment, or a complete inspection, our expert team is ready to take care of your vehicle. Simply schedule your appointment online or give us a call, and we’ll ensure your car gets the attention it deserves at a time that works best for you.</p>
             </div>
             <div className="ak-height-25 ak-height-lg-20"></div>
             <div className="contact-form" data-aos="fade-up" data-aos-delay="750">
                 <div id="ak-alert"></div>
                 <form onSubmit={e => e.preventDefault()} id="appointment-form" >
-                    <div className="from-inputs">
+                    {/* <div className="from-inputs">
                         <div className="type_1">
                             <label htmlFor="name" className="form-label">Full Name</label>
                             <input type="text" name="name" id="name" required />
@@ -123,10 +121,14 @@ const AppointmentForm = () => {
                             <label htmlFor="msg" className="form-label">Your Message*</label>
                             <textarea name="msg" rows={5} id="msg" required></textarea>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="ak-height-40 ak-height-lg-20"></div>
-                    <button type="submit" id="submit" name="submit" className="common-btn">Appointment Now</button>
+                    
                 </form>
+                <a href='https://calendly.com/sohailbarat78/30min' target='_blank'>
+                    <button className="common-btn">
+                    Appointment Now</button>
+                </a>
             </div>
         </div>
     </div>

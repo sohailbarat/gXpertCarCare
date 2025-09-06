@@ -12,9 +12,7 @@ const ContactFormHomeThree = () => {
                     Request for a appointment
                 </h2>
                 <p className="mb-2">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's stan. Lorem Ipsum is
-                    simply dummy text of the printing and typesetting industry.
+                    Booking your appointment at G. Xpert Car Care is quick and hassle-free. Whether you need an oil change, tire service, wheel alignment, or a complete inspection, our expert team is ready to take care of your vehicle. Simply schedule your appointment online or give us a call, and we’ll ensure your car gets the attention it deserves at a time that works best for you.
                 </p>
                 <div className="ak-height-40 ak-height-lg-30"></div>
                 <div className="images" data-aos="fade-up" data-aos-delay="150">

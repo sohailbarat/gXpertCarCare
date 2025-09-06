@@ -33,7 +33,7 @@ const HomeThree = () => {
       <PricingHomeThree />
       <BlogHomeThree />
       <VideoHomeOne style_2={true} />
-      <ClientsHomeOne />
+      {/* <ClientsHomeOne /> */}
       <ContactFormHomeThree />
       <FooterOne />
     </>
