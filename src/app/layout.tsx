@@ -1,5 +1,6 @@
  
 import "../styles/index.scss";
+import { Analytics } from "@vercel/analytics/next";
 
 
 export default function RootLayout({
@@ -15,6 +16,7 @@ export default function RootLayout({
       </head>
       <body suppressHydrationWarning>
         {children}
+        <Analytics />
       </body>
     </html>
   );
