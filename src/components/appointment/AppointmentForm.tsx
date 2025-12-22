@@ -9,7 +9,7 @@ const AppointmentForm = () => {
         <div className="contact-content">
             <div className="contact-title-section" data-aos="fade-up" data-aos-delay="700">
                 <h2 className="contact-form-title ak-white-color text-uppercase">Request for a appointment</h2>
-                <p>Booking your appointment at G. Xpert Car Care is quick and hassle-free. Whether you need an oil change, tire service, wheel alignment, or a complete inspection, our expert team is ready to take care of your vehicle. Simply schedule your appointment online or give us a call, and we’ll ensure your car gets the attention it deserves at a time that works best for you.</p>
+                <p>Simply shoot us a text, email or give us a call.</p>
             </div>
             <div className="ak-height-25 ak-height-lg-20"></div>
             <div className="contact-form" data-aos="fade-up" data-aos-delay="750">

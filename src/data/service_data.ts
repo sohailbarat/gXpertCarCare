@@ -11,7 +11,7 @@ const service_data = [
 		id: 1,
 		img: service_img_1,
 		title: "Oil Change",
-		desp: "We provide high-quality oil change services using both full synthetic and synthetic blend options. Our service ensures better engine performance, improved fuel efficiency, and long-lasting protection for your vehicle. (Filter not included.)",
+		desp: "We provide high-quality oil change services using both full synthetic and synthetic blend options. Our service ensures better engine performance, improved fuel efficiency, and long-lasting protection for your vehicle. (OIL FILTER INCLUDED.)",
 	},
 	{
 		id: 2,
