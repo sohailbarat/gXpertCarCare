@@ -66,10 +66,10 @@ const HeaderOne = () => {
                 <div className="ak-main_header_in">
                     <div className="ak-main-header-left">
                         <Link className="ak-site_branding" href="/">
-                            <img src="assets/img/logo.svg" alt="..." />
+                            <img src="assets/img/logo_1.svg" alt="..." />
                         </Link>
                     </div>
-                    <div className="ak-main-header-center">
+                    {/* <div className="ak-main-header-center">
                         <div className="ak-nav ak-medium">
                            <Navbar />
                         </div>
@@ -78,7 +78,7 @@ const HeaderOne = () => {
                         </div>
                         <span className={`ak-munu_toggle ${menuOpen ? "ak-toggle_active" : ""}`} onClick={handleMenuToggle}><span></span></span>
 
-                    </div>
+                    </div> */}
                     <div className="ak-main-header-right">
                         <a href="tel:1-800-915-6271">
                             <div className="d-flex align-items-center gap-3">

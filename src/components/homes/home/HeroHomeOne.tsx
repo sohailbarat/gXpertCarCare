@@ -38,7 +38,7 @@ const HeroHomeOne = () => {
 
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1 slide-inner">
-                    <img src="assets/img/hero_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                    <img src="assets/img/hero_slider_bg_1.jpg" className="ak-hero-bg ak-bg object-cover" alt="..." />
                     <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">
@@ -53,17 +53,17 @@ const HeroHomeOne = () => {
                                         best. Our skilled team of certified technicians.</p>
                                 </div>
                                 <div className="ak-height-45 ak-height-lg-30"></div>
-                                <div data-swiper-parallax="300">
+                                {/* <div data-swiper-parallax="300">
                                     <Link href="/appointment" className="common-btn">
                                         APPOINTMENT
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            {/* <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1 slide-inner">
                     <img src="assets/img/hero_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
                     <div className="container">
@@ -87,11 +87,11 @@ const HeroHomeOne = () => {
                         </div>
                     </div>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1  slide-inner">
-                    <img src="assets/img/hero_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
-                    <div className="container">
+                    <img src="assets/img/hero_slider_bg_5.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                    {/* <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">
                                 <div className="hero-title">
@@ -110,10 +110,10 @@ const HeroHomeOne = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </SwiperSlide>
-            <SwiperSlide className="swiper-slide">
+            {/* <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1 slide-inner">
                     <img src="assets/img/hero_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
                     <div className="container">
@@ -137,13 +137,13 @@ const HeroHomeOne = () => {
                         </div>
                     </div>
                 </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
 
         <div className="ak-swiper-controll-hero-1">
             <div className="ak-swiper-navigation-wrap">
                 <div className="ak-swiper-button-prev">
                     <div className="hero-swiper-prev">
-                        <div className="btn-cricle ak-white-bg-1"></div>
+                        {/* <div className="btn-cricle ak-white-bg-1"></div>
                         <div className="btn-arrow">
                             <svg xmlns="http://www.w3.org/2000/svg" width="29" height="41" viewBox="0 0 29 41"
                                 fill="none">
@@ -151,13 +151,13 @@ const HeroHomeOne = () => {
                                     d="M1.82581 20.0839L7.72307 14.1866C7.93491 13.9392 8.3072 13.9104 8.55457 14.1223C8.80194 14.3341 8.83078 14.7064 8.61889 14.9538C8.59912 14.9769 8.57763 14.9984 8.55457 15.0181L3.66574 19.9129H20.0831C20.4088 19.9129 20.6729 20.1769 20.6729 20.5026C20.6729 20.8284 20.4088 21.0924 20.0831 21.0924H3.66574L8.55457 25.9812C8.80194 26.193 8.83078 26.5653 8.61889 26.8127C8.40699 27.0601 8.03475 27.0889 7.78738 26.877C7.76432 26.8572 7.74278 26.8358 7.72307 26.8127L1.82575 20.9154C1.59714 20.6854 1.59714 20.314 1.82581 20.0839Z"
                                     fill="#fff" />
                             </svg>
-                        </div>
+                        </div> */}
 
                     </div>
                 </div>
                 <div className="ak-swiper-button-next">
                     <div className="hero-swiper-next">
-                        <div className="btn-cricle ak-white-bg-1"></div>
+                        {/* <div className="btn-cricle ak-white-bg-1"></div>
                         <div className="btn-arrow ">
                             <svg xmlns="http://www.w3.org/2000/svg" width="29" height="41" viewBox="0 0 29 41"
                                 fill="none">
@@ -165,7 +165,7 @@ const HeroHomeOne = () => {
                                     d="M20.5013 20.0839L14.6041 14.1866C14.3922 13.9392 14.0199 13.9104 13.7726 14.1223C13.5252 14.3341 13.4964 14.7064 13.7083 14.9538C13.728 14.9769 13.7495 14.9984 13.7726 15.0181L18.6614 19.9129H2.24401C1.91834 19.9129 1.6543 20.1769 1.6543 20.5026C1.6543 20.8284 1.91834 21.0924 2.24401 21.0924H18.6614L13.7726 25.9812C13.5252 26.193 13.4964 26.5653 13.7083 26.8127C13.9202 27.0601 14.2924 27.0889 14.5398 26.877C14.5628 26.8572 14.5844 26.8358 14.6041 26.8127L20.5014 20.9154C20.73 20.6854 20.73 20.314 20.5013 20.0839Z"
                                     fill="#fff" />
                             </svg>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -272,33 +272,65 @@ const HeroHomeOne = () => {
             <div className="hero-swiper-pagination"></div>
         </div>
         <div className="social-hero">
-            <a href="" className="social-icon1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+            <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care" className="social-icon1">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="17"
+                    height="17"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                >
                     <path
-                        d="M9.27491 8.83093L2.5 3.00265L2.5 4.38377L8.38256 9.44446L2.5 13.4864L2.5 18.1484L11.3955 12.0361L18.5 18.1484L18.5 16.7672L12.2878 11.4229L18.5 7.15432L18.5 2.49239L9.27491 8.83127L9.27491 8.83093ZM11.4738 10.7227L10.5881 11.342L3.53974 16.2695L3.53974 14.1481L9.22795 10.1715L10.1137 9.55219L17.5075 4.38311L17.5075 6.50455L11.4742 10.7227L11.4738 10.7227Z"
-                        fill="white" />
+                    d="M12.02 2.5c-.86 0-1.52.74-1.46 1.6l.34 4.8c.06.8.82 1.32 1.6 1.1l2.1-.62c.78-.23 1.08-1.18.56-1.82l-3.08-3.86a1.5 1.5 0 0 0-1.06-.2z"
+                    fill="white"
+                    />
+                    <path
+                    d="M8.4 10.2l-4.68 1.48a1.2 1.2 0 0 0-.6 1.9l1.7 2.24a1.2 1.2 0 0 0 1.86.04l3.1-3.72a1.2 1.2 0 0 0-1.38-1.94z"
+                    fill="white"
+                    />
+                    <path
+                    d="M9.1 14.4l-2.9 3.95a1.2 1.2 0 0 0 .54 1.82l2.5.96a1.2 1.2 0 0 0 1.62-1.14l-.1-4.92a1.2 1.2 0 0 0-1.66-.67z"
+                    fill="white"
+                    />
+                    <path
+                    d="M13.5 14.6l.28 4.86a1.2 1.2 0 0 0 1.66 1.06l2.46-1.04a1.2 1.2 0 0 0 .46-1.86l-3.1-3.82a1.2 1.2 0 0 0-1.76.8z"
+                    fill="white"
+                    />
+                    <path
+                    d="M15.6 10.4l4.66 1.56a1.2 1.2 0 0 1 .56 1.92l-1.74 2.18a1.2 1.2 0 0 1-1.86-.1l-3.02-3.78a1.2 1.2 0 0 1 1.4-1.78z"
+                    fill="white"
+                    />
                 </svg>
             </a>
-            <a href="" className="social-icon1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
-                    <g clipPath="url(#clip0_64_135)">
-                        <path
-                            d="M16.5 0.324375L16.4993 0.320374L10.6313 0.320374C7.76068 0.320374 5.54935 0.938375 5.54935 4.29437C5.54935 5.90771 6.43468 6.99037 7.27401 7.43237L7.27401 7.47904L5.81735 7.47904L5.81735 10.661L16.4993 10.661L16.4993 7.34771L11.21 7.34771C9.81735 7.34771 8.47068 7.08371 8.47068 5.35904C8.47068 3.65971 10.06 3.63437 11.2993 3.63437L16.5 3.63437L16.5 0.324375Z"
-                            fill="white" />
-                        <path d="M5.81799 16.0564L5.81799 12.739L16.5 12.739L16.5 16.0564L5.81799 16.0564Z"
-                            fill="white" />
-                        <path
-                            d="M0.5 14.399C0.5 15.4597 1.36067 16.3204 2.42133 16.3204C3.482 16.3204 4.36067 15.4597 4.36067 14.399C4.36067 13.3384 3.482 12.4777 2.42133 12.4777C1.36067 12.4784 0.5 13.339 0.5 14.399Z"
-                            fill="white" />
-                    </g>
-                    <defs>
-                        <clipPath id="clip0_64_135">
-                            <rect width="16" height="16" fill="white" transform="translate(0.5 16.3204) rotate(-90)" />
-                        </clipPath>
-                    </defs>
-                </svg>
+            <a href="https://www.instagram.com/g.xpertcarcare/" className="social-icon1">
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="17"
+                height="17"
+                viewBox="0 0 24 24"
+                fill="none"
+            >
+                <rect
+                x="2"
+                y="2"
+                width="20"
+                height="20"
+                rx="5"
+                stroke="currentColor"
+                strokeWidth="2"
+                />
+                <circle
+                cx="12"
+                cy="12"
+                r="5"
+                stroke="currentColor"
+                strokeWidth="2"
+                />
+                <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" />
+            </svg>
             </a>
-            <a href="" className="social-icon1">
+
+            <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/" className="social-icon1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                     <g clipPath="url(#clip0_64_133)">
                         <path

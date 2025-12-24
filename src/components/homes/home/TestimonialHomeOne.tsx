@@ -132,7 +132,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“The service I received here was truly exceptional; the staff were attentive and went above and beyond to ensure my experience was memorable. I would wholeheartedly recommend this place to my friends and family, as I believe they would appreciate the same level of care and attention.”</h4>
                             </div>
-                            <img src="assets/img/testmaonail_1.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>   
                     <SwiperSlide className="swiper-slide">
@@ -177,7 +177,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“Professional, friendly customer service, honest, knowledgeable, reliable, and quick service at G Xpert Car Care. Our car was serviced and repaired in less than 48 hours. My husband's car slipped on Stoney causing damages to the vehicle. Gul Ahmad took care of the alignment, oil change, brakes and rotators, replaced the oil pan, replaced damaged tires, replaced the windshield wipers, gave a diagnosis on the condition of the car, and answered any concerns we had.”</h4>
                             </div>
-                            <img src="assets/img/testmaonail_1.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">

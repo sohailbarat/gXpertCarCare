@@ -18,7 +18,7 @@ const About = () => {
       <Breadcrumb subtitle="About Us" />
       <CompanyArea />
       <ChooseArea />
-			<FunfactHomeOne />
+			{/* <FunfactHomeOne /> */}
       <TestimonialHomeOne />
       <TeamHomeOne />
       <PriceHomeOne />

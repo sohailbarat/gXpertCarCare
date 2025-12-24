@@ -23,7 +23,7 @@ const HomeOne = () => {
       <WhoChoosHomeOne />
       <Service2HomeOne />
       {/* <VideoHomeOne /> */}
-      <FunfactHomeOne />
+      {/* <FunfactHomeOne /> */}
       {/* <ClientsHomeOne /> */}
       <TestimonialHomeOne />
       {/* <TeamHomeOne /> */}

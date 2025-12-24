@@ -47,7 +47,7 @@ const FooterOne = ({style_2}: any) => {
                 }
 
                 <div className="footer-logo">
-                    <img src="assets/img/footer-logo.svg" alt="..." />
+                    <img src="assets/img/logo_1.svg" alt="..." />
                     <div className="ak-height-15 ak-height-lg-10"></div>
                 </div>
                 <div className="footer-content">
@@ -165,27 +165,7 @@ const FooterOne = ({style_2}: any) => {
                 <div className="copy-right">
                     <p className="title  text-hover-animaiton">Copyright {new Date().getFullYear()}, All Right reserved</p>
                     <div className="social-icon">
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
-                                <g clipPath="url(#clip0_365_2387)">
-                                    <path
-                                        d="M15.995 16.9761L15.999 16.9754L15.999 11.1074C15.999 8.23672 15.381 6.02539 12.025 6.02539C10.4117 6.02539 9.32899 6.91072 8.88699 7.75006H8.84033V6.29339L5.65833 6.29339L5.65833 16.9754H8.97166L8.97166 11.6861C8.97166 10.2934 9.23566 8.94672 10.9603 8.94672C12.6597 8.94672 12.685 10.5361 12.685 11.7754L12.685 16.9761H15.995Z"
-                                        fill="white" />
-                                    <path d="M0.263062 6.29395L3.5804 6.29395L3.5804 16.9759H0.263062L0.263062 6.29395Z"
-                                        fill="white" />
-                                    <path
-                                        d="M1.92036 0.975586C0.85969 0.975586 -0.000976563 1.83625 -0.000976563 2.89692C-0.000976563 3.95759 0.85969 4.83625 1.92036 4.83625C2.98102 4.83625 3.84169 3.95759 3.84169 2.89692C3.84102 1.83625 2.98036 0.975586 1.92036 0.975586Z"
-                                        fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_365_2387">
-                                        <rect width="16" height="16" fill="white"
-                                            transform="translate(-0.000976562 0.975586)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                        </a>
-                        <a href="#">
+                        <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                 <g clipPath="url(#clip0_365_2385)">
                                     <path
@@ -200,7 +180,7 @@ const FooterOne = ({style_2}: any) => {
                                 </defs>
                             </svg>
                         </a>
-                        <a href="#">
+                        <a href="https://www.instagram.com/g.xpertcarcare/">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                 <g clipPath="url(#clip0_365_2391)">
                                     <path
@@ -221,11 +201,34 @@ const FooterOne = ({style_2}: any) => {
                                 </defs>
                             </svg>
                         </a>
-                        <a href="#">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                        <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="17"
+                                height="17"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
                                 <path
-                                    d="M9.2757 7.92516L14.2721 2.11719H13.0882L8.74973 7.16017L5.28465 2.11719H1.28809L6.52797 9.74307L1.28809 15.8336H2.47215L7.05364 10.5081L10.713 15.8336H14.7096L9.27541 7.92516H9.2757ZM7.65396 9.81025L7.12305 9.05089L2.89879 3.00853H4.71745L8.12647 7.88491L8.65738 8.64427L13.0887 14.9828H11.2701L7.65396 9.81054V9.81025Z"
-                                    fill="white" />
+                                d="M12.02 2.5c-.86 0-1.52.74-1.46 1.6l.34 4.8c.06.8.82 1.32 1.6 1.1l2.1-.62c.78-.23 1.08-1.18.56-1.82l-3.08-3.86a1.5 1.5 0 0 0-1.06-.2z"
+                                fill="white"
+                                />
+                                <path
+                                d="M8.4 10.2l-4.68 1.48a1.2 1.2 0 0 0-.6 1.9l1.7 2.24a1.2 1.2 0 0 0 1.86.04l3.1-3.72a1.2 1.2 0 0 0-1.38-1.94z"
+                                fill="white"
+                                />
+                                <path
+                                d="M9.1 14.4l-2.9 3.95a1.2 1.2 0 0 0 .54 1.82l2.5.96a1.2 1.2 0 0 0 1.62-1.14l-.1-4.92a1.2 1.2 0 0 0-1.66-.67z"
+                                fill="white"
+                                />
+                                <path
+                                d="M13.5 14.6l.28 4.86a1.2 1.2 0 0 0 1.66 1.06l2.46-1.04a1.2 1.2 0 0 0 .46-1.86l-3.1-3.82a1.2 1.2 0 0 0-1.76.8z"
+                                fill="white"
+                                />
+                                <path
+                                d="M15.6 10.4l4.66 1.56a1.2 1.2 0 0 1 .56 1.92l-1.74 2.18a1.2 1.2 0 0 1-1.86-.1l-3.02-3.78a1.2 1.2 0 0 1 1.4-1.78z"
+                                fill="white"
+                                />
                             </svg>
                         </a>
                     </div>
