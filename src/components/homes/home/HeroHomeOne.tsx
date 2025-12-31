@@ -224,7 +224,7 @@ const HeroHomeOne = () => {
                                     fill="white" />
                             </svg>
                         </div>
-                        <p className="ak-font-18 ak-white-color ak-semi-bold">2423 27 Ave NE, Calgary, AB T2E 8L2</p>
+                        <p className="ak-font-18 ak-white-color ak-semi-bold"> <a href="https://www.google.com/maps?sca_esv=759a800b38357059&rlz=1C1OPNX_enCA1009CA1009&sxsrf=AE3TifM_5vTmI4oKeNewar7kUJHfRul59w:1767224871452&lsig=AB86z5XNKQxtdr3G0_OmtxbiSL3e&biw=1920&bih=945&dpr=1&um=1&ie=UTF-8&fb=1&gl=ca&sa=X&geocode=Keegvzb5ZXFTMRrFgrTdz-YI&daddr=2423+27+Ave+NE,+Calgary,+AB+T2E+8L2">2423 27 Ave NE, Calgary, AB T2E 8L2</a></p>
                     </div>
                 </a>
                 <div className="d-flex align-items-center gap-2">
