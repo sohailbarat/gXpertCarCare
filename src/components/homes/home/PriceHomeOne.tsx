@@ -62,7 +62,7 @@ const PriceHomeOne = ({style_2}: any) => {
                                                 fill="white" />
                                         </svg>
                                     </div>
-                                    <p className="title">Synthetic - $79.99 Upto 5L (Filter Included)</p>
+                                    <p className="title">Synthetic - $79.99 Up to 5L (Filter Included)</p>
                                 </div>
                                 <div className="opation">
                                     <div className="icon"><svg width="27" height="27" viewBox="0 0 27 27" fill="none"
@@ -73,7 +73,7 @@ const PriceHomeOne = ({style_2}: any) => {
                                                 fill="white" />
                                         </svg>
                                     </div>
-                                    <p className="title">Blended - $59.99 Upto 5L (Filter Included)</p>
+                                    <p className="title">Blended - $59.99 Up to 5L (Filter Included)</p>
                                 </div>
                                 <div className="opation">
                                     <div className="icon"><svg width="27" height="27" viewBox="0 0 27 27" fill="none"
@@ -112,7 +112,8 @@ const PriceHomeOne = ({style_2}: any) => {
                         <div className="pricing-card" data-aos="fade-up" data-aos-delay="50">
                             <div className="pricing-heading">
                                 <p className="title">Tire Services</p>
-                                <h2 className="discount-price">From $14.99/tire <span style={{fontSize: '12px'}}>Tire levy charges may apply.</span></h2>
+                                <h2 className="discount-price">From $14.99/tire </h2>
+                                <p style={{fontSize: '12px'}}>Tire levy charges may apply.</p>
                                 {/* <h5 className="main-price"> $899.99</h5> */}
                             </div>
                             <div className="opation-all">

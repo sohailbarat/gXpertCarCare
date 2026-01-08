@@ -28,7 +28,7 @@ const HeroHomeTwo = () => {
                                       Services</h1>
                                   <p className="mini-title" data-swiper-parallax="200">Our skilled team of certified
                                       technicians is here to provide top-notch car repair and auto services to ensure
-                                      your vehicle performs at its best. Our skilled team of certified technicians.
+                                      your vehicle performs at its best. 
                                   </p>
                               </div>
                               <div className="ak-height-45 ak-height-lg-30"></div>
@@ -104,7 +104,7 @@ const HeroHomeTwo = () => {
                                   <p className="mini-title" data-swiper-parallax="200">Our skilled team of certified
                                       technicians is here to provide
                                       top-notch car repair and auto services to ensure your vehicle performs at its
-                                      best. Our skilled team of certified technicians.</p>
+                                      best. </p>
                               </div>
                               <div className="ak-height-45 ak-height-lg-30"></div>
                               <div data-swiper-parallax="300">
@@ -178,7 +178,7 @@ const HeroHomeTwo = () => {
                                   <p className="mini-title" data-swiper-parallax="200">Our skilled team of certified
                                       technicians is here to provide
                                       top-notch car repair and auto services to ensure your vehicle performs at its
-                                      best. Our skilled team of certified technicians.</p>
+                                      best.</p>
                               </div>
                               <div className="ak-height-45 ak-height-lg-30"></div>
                               <div data-swiper-parallax="300">
@@ -252,7 +252,7 @@ const HeroHomeTwo = () => {
                                   <p className="mini-title" data-swiper-parallax="200">Our skilled team of certified
                                       technicians is here to provide
                                       top-notch car repair and auto services to ensure your vehicle performs at its
-                                      best. Our skilled team of certified technicians.</p>
+                                      best. </p>
                               </div>
                               <div className="ak-height-45 ak-height-lg-30"></div>
                               <div data-swiper-parallax="300">
