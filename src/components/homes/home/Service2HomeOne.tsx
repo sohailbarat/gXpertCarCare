@@ -5,13 +5,13 @@ import Image from 'next/image';
 import Link from 'next/link'; 
 
 const Service2HomeOne = ({style_2}: any) => { 
-    // item slice for pages
+    // // item slice for pages
     const style = service_data.slice(0, 6);
     const style2 = service_data;
     const data = style_2 ? style2 : style; 
      
-    useStickySidebar('.sidebar', '.scroll-end-point');
-    useStickySidebar('.sidebar.style-two', '.scroll-end-point.style-two');
+    // // useStickySidebar('.sidebar', '.scroll-end-point');
+    // // useStickySidebar('.sidebar.style-two', '.scroll-end-point.style-two');
 
   return (
     <>

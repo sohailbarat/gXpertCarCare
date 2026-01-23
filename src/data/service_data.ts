@@ -11,13 +11,13 @@ const service_data = [
 		id: 1,
 		img: service_img_1,
 		title: "Oil Change",
-		desp: "We provide high-quality oil change services using both full synthetic and synthetic blend options. Our service ensures better engine performance, improved fuel efficiency, and long-lasting protection for your vehicle. (OIL FILTER INCLUDED.)",
+		desp: "We provide high-quality oil change services using both full synthetic and synthetic blend options. Our service ensures better engine performance, improved fuel efficiency, and long-lasting protection for your vehicle. (OIL FILTER INCLUDED WITH SOME EXCLUSIONS)",
 	},
 	{
 		id: 2,
 		img: service_img_2,
 		title: "Tire Services",
-		desp: "Our tire services include professional tire rotation and seasonal tire swaps. Regular maintenance helps extend tire life, improve handling, and ensure a smoother, safer ride.",
+		desp: "Our tire services include professional tire rotation, mounting, balancing, rim servicing, and seasonal tire swaps. Regular maintenance helps extend tire life, improve handling, and ensure a smoother, safer ride.",
 	},
 	{
 		id: 3,
@@ -29,13 +29,13 @@ const service_data = [
 		id: 4,
 		img: service_img_4,
 		title: "Engine Shampoo",
-		desp: "Our engine shampoo service removes built-up dirt, grease, and grime from your engine, helping it stay cleaner and run more efficiently while improving overall performance and longevity.",
+		desp: "Removes buildup from the engine, helping it stay cleaner and run more efficiently, while detecting leaks such as coolant and engine oil to prevent further damage to components (e.g., alternator, serpentine belt, belt tensioners, etc.).",
 	},
 	{
 		id: 5,
 		img: service_img_5,
 		title: "Vehicle Inspections",
-		desp: "We provide comprehensive vehicle inspection services, including AMVIC, OPI, and re-inspections. Our inspections ensure your vehicle meets all safety, performance, and regulatory standards for worry-free driving.",
+		desp: "We provide comprehensive vehicle inspection services, including AMVIC, OPI, Pre-purchase, Insurance and seasonal get ready inspections. Our inspections ensure your vehicle meets all safety, performance, and regulatory standards for worry-free driving.",
 	},
 ];
 

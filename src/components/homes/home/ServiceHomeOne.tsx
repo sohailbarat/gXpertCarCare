@@ -5,6 +5,14 @@ const ServiceHomeOne = ({style_2}: any) => {
     <>
         {style_2 ? null : <div className="ak-height-125 ak-height-lg-80"></div>}
         <section className="container">
+            <div className="ak-section-heading ak-style-1">
+                <div className="background-text">PROMOTIONS</div>
+                <h2 className="ak-section-title">Current Promotions</h2>
+                <p className="ak-section-subtitle">A variety of promotions are available to help you save on your next service. *Promotions cannot be combined. </p>
+                <p className="ak-section-subtitle">*Valid till 31st Jan 2026.</p>
+                <p className="ak-section-subtitle">*Some exclusions may apply.</p>
+            </div>
+            <div className="ak-height-60 ak-height-lg-30"></div>
             <div className={`row  row-cols-1 row-cols-xl-3 g-4 ${style_2 ? "service-progress-card-position-changes" : ""}`}>
                 <div className={`service-progress-card ${style_2 && "style-two"}`} data-aos="fade-up">
                     {style_2 ? null :
@@ -14,14 +22,14 @@ const ServiceHomeOne = ({style_2}: any) => {
                     </div>
                     }
                     <div className="service-item">
-                        <div className="heartbeat-icon">
+                        {/* <div className="heartbeat-icon">
                             <a href="#">
                                 <span className="ak-heartbeat-btn"><img src="assets/img/speedome.svg" alt="..." /></span>
                             </a>
-                        </div>
+                        </div> */}
                         <div className="service-info">
-                            <h4 className="title">PERFOMANCE CHECK</h4>
-                            <p className="desp">Get a comprehensive performance check to assess your vehicle’s overall condition. We identify potential issues early to keep your car running at peak efficiency and reliability.</p>
+                            <h4 className="title">Oil Change + Filter</h4>
+                            <p className="desp">Free tire rotation with oil & filter change — from $59.99</p>
                         </div>
                     </div>
                 </div>
@@ -33,14 +41,14 @@ const ServiceHomeOne = ({style_2}: any) => {
                     </div>                    
                     }
                     <div className="service-item">
-                        <div className="heartbeat-icon">
+                        {/* <div className="heartbeat-icon">
                             <a href="#">
                                 <span className="ak-heartbeat-btn"><img src="assets/img/car-repair.svg" alt="..." /></span>
                             </a>
-                        </div>
+                        </div> */}
                         <div className="service-info">
-                            <h4 className="title">AUTO REPAIR</h4>
-                            <p className="desp">From minor fixes to major repairs, our certified technicians handle it all. We offer reliable, honest auto repair services to get you back on the road safely and quickly.</p>
+                            <h4 className="title">Labour Discount</h4>
+                            <p className="desp">15% off on all labour charges.</p>
                         </div>
                     </div>
                 </div>
@@ -52,14 +60,14 @@ const ServiceHomeOne = ({style_2}: any) => {
                     </div>
                     }
                     <div className="service-item">
-                        <div className="heartbeat-icon">
+                        {/* <div className="heartbeat-icon">
                             <a href="#">
                                 <span className="ak-heartbeat-btn"><img src="assets/img/car.svg" alt="..." /></span>
                             </a>
-                        </div>
+                        </div> */}
                         <div className="service-info">
-                            <h4 className="title">FLEET SERVICES</h4>
-                            <p className="desp">Keep your business moving with our tailored fleet maintenance and repair solutions. We offer priority service, scheduled maintenance, and reliable support for commercial vehicle fleets.</p>
+                            <h4 className="title">Charging and Scan</h4>
+                            <p className="desp">Get a complimentary charging system and diagnostic trouble code (DTC) scan with any service.</p>
                         </div>
                     </div>
                 </div>
