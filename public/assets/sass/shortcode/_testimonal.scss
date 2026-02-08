@@ -17,7 +17,7 @@
         .desp {
           font-style: normal;
           font-size: 28px;
-          font-family: Oxanium;
+          font-family: var(--heading-font-family);
         }
       }
     }
@@ -75,7 +75,7 @@
       }
       .desp {
         margin-top: 26px;
-        font-family: Sarabun;
+        font-family: var(--body-font-family);
         font-size: 28px;
         font-style: italic;
         font-weight: 500;

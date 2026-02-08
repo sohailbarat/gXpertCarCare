@@ -1,9 +1,10 @@
 "use client"
 
 import React from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation, Pagination, Parallax, Zoom } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
   
 
 const HeroHomeOne = () => {
@@ -12,10 +13,6 @@ const HeroHomeOne = () => {
        <Swiper  
         loop={true}
         speed={1200}
-        parallax={true}
-        zoom={{
-          maxRatio: 5,
-        }}
         autoplay={{
           delay: 6500,
           disableOnInteraction: false,
@@ -33,21 +30,30 @@ const HeroHomeOne = () => {
           nextEl: ".ak-swiper-button-prev",
           prevEl: ".ak-swiper-button-next",
         }}
-        modules={[Navigation, Pagination, Autoplay, Zoom, Parallax]}
+        modules={[Navigation, Pagination, Autoplay]}
        className="ak-slider ak-slider-hero-1"> 
 
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1 slide-inner">
-                    <img src="assets/img/hero_slider_bg_1.jpg" className="ak-hero-bg ak-bg object-cover" alt="G. Xpert Car Care auto repair shop in Calgary, AB" />
+                    <Image
+                        src="/assets/img/hero_slider_bg_1.jpg"
+                        alt="G. Xpert Car Care auto repair shop in Calgary, AB"
+                        fill
+                        priority
+                        sizes="100vw"
+                        quality={75}
+                        className="ak-hero-bg ak-bg object-cover"
+                        style={{ objectFit: 'cover' }}
+                    />
                     <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">
                                 <div className="hero-title">
-                                    <h1 className="hero-main-title" data-swiper-parallax="300">Car Repair &
+                                    <h1 className="hero-main-title">Car Repair &
                                         Auto</h1>
-                                    <h1 className="hero-main-title-1 style-2" data-swiper-parallax="100">
+                                    <h1 className="hero-main-title-1 style-2">
                                         Services</h1>
-                                    <p className="mini-title" data-swiper-parallax="400">Our skilled team of certified
+                                    <p className="mini-title">Our skilled team of certified
                                         technicians is here to provide
                                         top-notch car repair and auto services to ensure your vehicle performs at its
                                         best. </p>
@@ -90,7 +96,15 @@ const HeroHomeOne = () => {
             </SwiperSlide> */}
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1  slide-inner">
-                    <img src="assets/img/hero_slider_bg_5.png" className="ak-hero-bg ak-bg object-cover" alt="Professional car repair and auto services at G. Xpert Car Care" />
+                    <Image
+                        src="/assets/img/hero_slider_bg_5.png"
+                        alt="Professional car repair and auto services at G. Xpert Car Care"
+                        fill
+                        sizes="100vw"
+                        quality={75}
+                        className="ak-hero-bg ak-bg object-cover"
+                        style={{ objectFit: 'cover' }}
+                    />
                     {/* <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">

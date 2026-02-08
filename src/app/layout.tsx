@@ -1,8 +1,23 @@
 
 import "../styles/index.scss";
-import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Metadata } from "next";
+import { Oxanium, Sarabun } from "next/font/google";
+
+const oxanium = Oxanium({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  display: "swap",
+  variable: "--font-oxanium",
+});
+
+const sarabun = Sarabun({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-sarabun",
+});
 
 const SITE_URL = "https://gxpertcarcare.com";
 
@@ -186,13 +201,12 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" className={`${oxanium.variable} ${sarabun.variable}`}>
       <head>
         <link rel="icon" href="/favicon.svg" />
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&family=Sarabun:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-        />
+        <link rel="preload" href="/assets/img/hero_slider_bg_1.jpg" as="image" />
+        <link rel="dns-prefetch" href="https://www.google.com" />
+        <link rel="dns-prefetch" href="https://www.facebook.com" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -200,7 +214,6 @@ export default function RootLayout({
       </head>
       <body suppressHydrationWarning>
         {children}
-        <Analytics />
         <SpeedInsights />
       </body>
     </html>

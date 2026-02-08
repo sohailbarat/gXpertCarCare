@@ -47,7 +47,7 @@ const FooterOne = ({style_2}: any) => {
                 }
 
                 <div className="footer-logo">
-                    <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" />
+                    <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" width="200" height="55" />
                     <div className="ak-height-15 ak-height-lg-10"></div>
                 </div>
                 <div className="footer-content">

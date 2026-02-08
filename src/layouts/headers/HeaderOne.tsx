@@ -1,60 +1,46 @@
 "use client";
-import React, { useEffect, useState } from 'react';
-import Navbar from './Navbar';
+import React, { useEffect, useState, useRef, useCallback } from 'react';
 import Link from 'next/link';
-import MobileMenu from './MobileMenu';
 
 const HeaderOne = () => {
 
     const [isSticky, setIsSticky] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
-    const [lastScrollTop, setLastScrollTop] = useState(0);
+    const lastScrollTopRef = useRef(0);
+    const headerHeightRef = useRef(0);
+    const ticking = useRef(false);
   
+    const updateHeader = useCallback(() => {
+      const scrollTop = window.scrollY;
+      const headerHeight = headerHeightRef.current;
+
+      if (scrollTop >= headerHeight) {
+        setIsSticky(true);
+        setIsVisible(scrollTop < lastScrollTopRef.current);
+      } else {
+        setIsSticky(false);
+        setIsVisible(false);
+      }
+
+      lastScrollTopRef.current = scrollTop;
+      ticking.current = false;
+    }, []);
+
     useEffect(() => { 
+      const header = document.querySelector(".ak-sticky_header") as HTMLElement;
+      if (!header) return;
+      headerHeightRef.current = header.offsetHeight + 30;
 
-    const header = document.querySelector(".ak-sticky_header") as HTMLElement;
-    if (!header) return;
-    
-    const headerHeight = header.offsetHeight + 30;
-      
-  
       const handleScroll = () => {
-        const scrollTop = window.scrollY;
-  
-        // Add or remove sticky class
-        if (scrollTop >= headerHeight) {
-          setIsSticky(true);
-        } else {
-          setIsSticky(false);
-          setIsVisible(false);
+        if (!ticking.current) {
+          window.requestAnimationFrame(updateHeader);
+          ticking.current = true;
         }
-  
-        // Show or hide sticky header on scroll
-        if (isSticky) {
-          if (scrollTop < lastScrollTop) {
-            setIsVisible(true);
-          } else {
-            setIsVisible(false);
-          }
-        }
-  
-        setLastScrollTop(scrollTop);
       };
   
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, [isSticky, lastScrollTop]);
-
-
-    // toggle menu
-    const [menuOpen, setMenuOpen] = useState(false);
-    const handleMenuToggle = () => {
-        setMenuOpen(!menuOpen);
-    } 
-      
+      window.addEventListener("scroll", handleScroll, { passive: true });
+      return () => window.removeEventListener("scroll", handleScroll);
+    }, [updateHeader]);
 
   return (
     <>
@@ -67,24 +53,14 @@ const HeaderOne = () => {
                 <div className="ak-main_header_in">
                     <div className="ak-main-header-left">
                         <Link className="ak-site_branding" href="/" aria-label="G. Xpert Car Care - Home">
-                            <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" />
+                            <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" width="180" height="50" />
                         </Link>
                     </div>
-                    {/* <div className="ak-main-header-center">
-                        <div className="ak-nav ak-medium">
-                           <Navbar />
-                        </div>
-                        <div className="ak-nav ak-medium d-md-block d-sm-block d-xl-none d-xxl-none" style={{display: menuOpen ? "block" : "none"}}>
-                           <MobileMenu menuOpen={menuOpen} />
-                        </div>
-                        <span className={`ak-munu_toggle ${menuOpen ? "ak-toggle_active" : ""}`} onClick={handleMenuToggle}><span></span></span>
-
-                    </div> */}
                     <div className="ak-main-header-right">
-                        <a href="tel:1-800-915-6271">
+                        <a href="tel:1-587-329-2528" aria-label="Call G. Xpert Car Care at 1-587-329-2528">
                             <div className="d-flex align-items-center gap-3">
                                 <div className="heartbeat-icon">
-                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="Call us" /></span>
+                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="Call us" width="24" height="24" /></span>
                                 </div>
                                 <h6> 1-587-329-2528 </h6>
                             </div>
