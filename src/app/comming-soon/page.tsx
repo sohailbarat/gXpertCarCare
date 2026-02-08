@@ -4,9 +4,12 @@ import Wrapper from "@/layouts/Wrapper";
 import CommingSoon from "@/components/comming-soon";
 
 export const metadata: Metadata = {
-	title: "Comming Soon Car Repair & Auto Services Next js Template",
-	description: "The official Next.js Course Dashboard, built with App Router.",
-	metadataBase: new URL("https://next-learn-dashboard.vercel.sh"),
+	title: "Coming Soon - New Services",
+	description: "Exciting new auto repair services coming soon to G. Xpert Car Care in Calgary, AB. Stay tuned for updates!",
+	robots: {
+		index: false,
+		follow: false,
+	},
 };
 
 const index = () => {

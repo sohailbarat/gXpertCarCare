@@ -60,13 +60,14 @@ const HeaderOne = () => {
     <>
       <header  
       className={`ak-site_header ak-style1 ak-sticky_header ${isSticky ? "ak-gescout_sticky" : ""} ${isVisible ? "ak-gescout_show" : ""}`}
+      role="banner"
       >
         <div className="ak-main_header">
             <div className="container">
                 <div className="ak-main_header_in">
                     <div className="ak-main-header-left">
-                        <Link className="ak-site_branding" href="/">
-                            <img src="assets/img/logo_1.svg" alt="..." />
+                        <Link className="ak-site_branding" href="/" aria-label="G. Xpert Car Care - Home">
+                            <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" />
                         </Link>
                     </div>
                     {/* <div className="ak-main-header-center">
@@ -83,7 +84,7 @@ const HeaderOne = () => {
                         <a href="tel:1-800-915-6271">
                             <div className="d-flex align-items-center gap-3">
                                 <div className="heartbeat-icon">
-                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
+                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="Call us" /></span>
                                 </div>
                                 <h6> 1-587-329-2528 </h6>
                             </div>

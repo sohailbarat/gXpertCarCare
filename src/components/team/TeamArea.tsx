@@ -34,7 +34,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="0">
                         <Link href="/team-single">
-                            <img src="assets/img/member_1.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_1.jpg" className="member-img ak-bg" alt="Darrell T. Beedle, Lead Mechanic at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -44,7 +44,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"
@@ -56,7 +56,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="50">
                         <Link href="/team-single">
-                            <img src="assets/img/member_2.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_2.jpg" className="member-img ak-bg" alt="Michael Jack, Service Advisor at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -66,7 +66,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"
@@ -78,7 +78,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="100">
                         <Link href="/team-single">
-                            <img src="assets/img/member_3.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_3.jpg" className="member-img ak-bg" alt="Cathy Sparkman, Diagnostic Technician at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -87,7 +87,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"
@@ -101,7 +101,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="0">
                         <Link href="/team-single">
-                            <img src="assets/img/member_4.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_4.jpg" className="member-img ak-bg" alt="Charles G. Macdonald, System Technician at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -110,7 +110,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"
@@ -122,7 +122,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="50">
                         <Link href="/team-single">
-                            <img src="assets/img/member_5.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_5.jpg" className="member-img ak-bg" alt="Anthony M. Lass, Systems Specialist at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -131,7 +131,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"
@@ -144,7 +144,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                 <div className="col">
                     <div className="member-card" data-aos="fade-up" data-aos-delay="100">
                         <Link href="/team-single">
-                            <img src="assets/img/member_6.jpg" className="member-img ak-bg" alt="..." />
+                            <img src="assets/img/member_6.jpg" className="member-img ak-bg" alt="Tyra Crawford, Lead Mechanic at G. Xpert Car Care" />
                         </Link>
                         <div className="member-info">
                             <div className="member-title">
@@ -153,7 +153,7 @@ const TeamArea = ({style_2, style_3}: any) => {
                             </div>
                             <div className="member-info-social">
                                 <a href="https://www.facebook.com/" className="icon"><img src="assets/img/linkedinicon.svg"
-                                        alt="..." /></a>
+                                        alt="LinkedIn" /></a>
                                 <a href="https://bd.linkedin.com/" className="icon"><img src="assets/img/facebookicon.svg"
                                         alt="" /></a>
                                 <a href="https://www.instagram.com/" className="icon"><img src="assets/img/twittericon.svg"

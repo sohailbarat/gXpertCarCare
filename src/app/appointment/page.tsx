@@ -8,9 +8,11 @@ import Appointment from '@/components/appointment';
 
 
 export const metadata: Metadata = {
-  title: 'Appointment Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Book an Appointment - Car Repair & Service',
+  description: 'Schedule your car repair or maintenance appointment at G. Xpert Car Care in Calgary, AB. Oil changes, tire services, wheel alignment, inspections, and more. Call (587) 329-2528.',
+  alternates: {
+    canonical: '/appointment',
+  },
 };
 
 

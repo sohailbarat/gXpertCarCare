@@ -19,7 +19,7 @@ const BlogHomeThree = () => {
                 <div className="service">
                     <div className="service-card type-two" data-aos="fade-left">
                         <Link href="/services-single" className="card-img">
-                            <img src="assets/img/blog_sm_1.jpg" className="ak-bg" alt="..." />
+                            <img src="assets/img/blog_sm_1.jpg" className="ak-bg" alt="Performance upgrades and vehicle customization" />
                         </Link>
                         <div className="card-info">
                             <Link href="/services-single" className="card-title">Performance Upgrades and Customization</Link>
@@ -34,7 +34,7 @@ const BlogHomeThree = () => {
 
                     <div className="service-card type-two" data-aos="fade-left">
                         <Link href="/services-single" className="card-img">
-                            <img src="assets/img/blog_sm_2.jpg" className="ak-bg" alt="..." />
+                            <img src="assets/img/blog_sm_2.jpg" className="ak-bg" alt="Vehicle health transformation tips" />
                         </Link>
                         <div className="card-info">
                             <Link href="/services-single" className="card-title">From Garage to Glory: Transform Your
@@ -50,7 +50,7 @@ const BlogHomeThree = () => {
 
                     <div className="service-card type-two" data-aos="fade-left">
                         <Link href="/services-single" className="card-img">
-                            <img src="assets/img/blog_sm_3.jpg" className="ak-bg" alt="..." />
+                            <img src="assets/img/blog_sm_3.jpg" className="ak-bg" alt="Essential car care tips for road reliability" />
                         </Link>
                         <div className="card-info">
                             <Link href="/services-single" className="card-title">The Roadmap to Reliability Essential Car
@@ -66,7 +66,7 @@ const BlogHomeThree = () => {
 
                     <div className="service-card type-two" data-aos="fade-left">
                         <Link href="/services-single" className="card-img">
-                            <img src="assets/img/blog_sm_4.jpg" className="ak-bg" alt="..." />
+                            <img src="assets/img/blog_sm_4.jpg" className="ak-bg" alt="Vehicle maintenance and health guide" />
                         </Link>
                         <div className="card-info">
                             <Link href="/services-single" className="card-title">From Garage to Glory: Transform Your

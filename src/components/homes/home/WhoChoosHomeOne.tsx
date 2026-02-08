@@ -29,8 +29,8 @@ const WhoChoosHomeOne = ({style_2}: any) => {
                         </Link> */}
                     </div>
                     <div className="choose-us-img" data-aos="fade-up" data-aos-delay="150">
-                        <img src="assets/img/choose-us.png" alt="..." />
-                        <img className="circle-img" src="assets/img/Circle.png" alt="..." />
+                        <img src="assets/img/choose-us.png" alt="Why choose G. Xpert Car Care - certified technicians working on vehicle" />
+                        <img className="circle-img" src="assets/img/Circle.png" alt="Decorative circle graphic" />
                     </div>
                 </div>
             </div>

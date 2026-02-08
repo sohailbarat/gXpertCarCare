@@ -20,7 +20,7 @@ const CtaAbout = () => {
 							Ipsum has been the industry's stan.
 						</p>
 						<Link href="/contact" className="cta-btn">
-							<img src="assets/img/phone.svg" alt="..." />
+							<img src="assets/img/phone.svg" alt="Call G. Xpert Car Care" />
 							<span className="ms-2"> GET IN TOUCH WITH US</span>
 						</Link>
 					</div>

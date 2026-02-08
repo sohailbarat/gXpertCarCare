@@ -35,22 +35,22 @@ const SingleTeamSlider = () => {
 
       className="team-single-page-slider ak-slider"> 
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_1.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_1.jpg" alt="G. Xpert Car Care team member at work in Calgary auto shop" />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_2.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_2.jpg" alt="G. Xpert Car Care certified technician performing auto repair" />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_3.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_3.jpg" alt="G. Xpert Car Care professional mechanic servicing a vehicle" />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_1.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_1.jpg" alt="G. Xpert Car Care team member at work in Calgary auto shop" />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_2.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_2.jpg" alt="G. Xpert Car Care certified technician performing auto repair" />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-              <img className="slide-img" src="assets/img/team_single_page_slider_3.jpg" alt="..." />
+              <img className="slide-img" src="assets/img/team_single_page_slider_3.jpg" alt="G. Xpert Car Care professional mechanic servicing a vehicle" />
           </SwiperSlide>
           
           <div className="team-single-page-swiper-controll">

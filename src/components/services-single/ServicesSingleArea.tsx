@@ -28,7 +28,7 @@ const ServicesSingleArea = () => {
                         deserve.
                         Explore our comprehensive tire services below:
                     </p>
-                    <img src="assets//img/services-single.jpg" data-aos="fade-up" className="img-fluid" alt="..." />
+                    <img src="assets//img/services-single.jpg" data-aos="fade-up" className="img-fluid" alt="Tire services at G. Xpert Car Care in Calgary" />
                     <div className="ak-height-50 ak-height-lg-50"></div>
                 </div>
                 <div className="single-blog-list" data-aos="fade-up">
@@ -55,8 +55,8 @@ const ServicesSingleArea = () => {
                         aligned to manufacturer specifications.
                     </p>
                     <div className="d-flex gap-3 flex-nowrap flex-md-wrap">
-                        <img src="assets/img/services-single-2.jpg" className="img-fluid" alt="..." />
-                        <img src="assets/img/services-single-3.jpg" className="img-fluid d-none d-lg-block" alt="..." />
+                        <img src="assets/img/services-single-2.jpg" className="img-fluid" alt="Wheel alignment service at G. Xpert Car Care" />
+                        <img src="assets/img/services-single-3.jpg" className="img-fluid d-none d-lg-block" alt="Professional tire balancing and repair service" />
                     </div>
                     <div className="ak-height-50 ak-height-lg-50"></div>
                 </div>

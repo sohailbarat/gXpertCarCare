@@ -30,7 +30,7 @@ const TeamHomeOne = () => {
                                         </div>
                                         <div className="team-info-social">
                                             <a href="https://www.facebook.com/" className="icon"><img
-                                                    src="assets/img/linkedinicon.svg" alt="..." /></a>
+                                                    src="assets/img/linkedinicon.svg" alt="LinkedIn" /></a>
                                             <a href="https://bd.linkedin.com/" className="icon"><img
                                                     src="assets/img/facebookicon.svg" alt="" /></a>
                                             <a href="https://www.instagram.com/" className="icon"><img
@@ -50,7 +50,7 @@ const TeamHomeOne = () => {
                                         </div>
                                         <div className="team-info-social">
                                             <a href="https://www.facebook.com/" className="icon"><img
-                                                    src="assets/img/linkedinicon.svg" alt="..." /></a>
+                                                    src="assets/img/linkedinicon.svg" alt="LinkedIn" /></a>
                                             <a href="https://bd.linkedin.com/" className="icon"><img
                                                     src="assets/img/facebookicon.svg" alt="" /></a>
                                             <a href="https://www.instagram.com/" className="icon"><img
@@ -70,7 +70,7 @@ const TeamHomeOne = () => {
                                         </div>
                                         <div className="team-info-social">
                                             <a href="https://www.facebook.com/" className="icon"><img
-                                                    src="assets/img/linkedinicon.svg" alt="..." /></a>
+                                                    src="assets/img/linkedinicon.svg" alt="LinkedIn" /></a>
                                             <a href="https://bd.linkedin.com/" className="icon"><img
                                                     src="assets/img/facebookicon.svg" alt="" /></a>
                                             <a href="https://www.instagram.com/" className="icon"><img

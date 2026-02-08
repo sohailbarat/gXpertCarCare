@@ -7,9 +7,11 @@ import Testimonial from '@/components/testimonial';
 
 
 export const metadata: Metadata = {
-  title: 'Testimonial Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Testimonials - Customer Reviews',
+  description: 'Read what our satisfied customers say about G. Xpert Car Care in Calgary, AB. Honest service, quality workmanship, and transparent pricing. See our 5-star reviews.',
+  alternates: {
+    canonical: '/testimonial',
+  },
 };
 
 

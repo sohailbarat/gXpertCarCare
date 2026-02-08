@@ -13,7 +13,7 @@ const BlogSingleArea = () => {
                 <div className="ak-height-50 ak-height-lg-30"></div>
             </div>
             <div data-aos="fade-up" data-aos-delay="700">
-                <img src="assets/img/single-blog.jpg" className="img-fluid" alt="..." />
+                <img src="assets/img/single-blog.jpg" className="img-fluid" alt="Routine car maintenance guide for confident driving" />
                 <div className="ak-height-50 ak-height-lg-30"></div>
             </div>
 

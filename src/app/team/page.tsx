@@ -7,9 +7,11 @@ import Wrapper from '@/layouts/Wrapper';
 
 
 export const metadata: Metadata = {
-  title: 'Team Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Our Team - Certified Auto Technicians',
+  description: 'Meet the certified auto repair technicians at G. Xpert Car Care in Calgary, AB. Our skilled team brings 20+ years of experience to every vehicle they service.',
+  alternates: {
+    canonical: '/team',
+  },
 };
 
 

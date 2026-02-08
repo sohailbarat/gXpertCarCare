@@ -1,0 +1,14 @@
+# G. Xpert Car Care - Robots.txt
+# https://gxpertcarcare.com
+
+User-agent: *
+Allow: /
+
+# Disallow non-essential pages
+Disallow: /comming-soon
+Disallow: /home-2
+Disallow: /home-3
+Disallow: /404
+
+# Sitemap
+Sitemap: https://gxpertcarcare.com/sitemap.xml

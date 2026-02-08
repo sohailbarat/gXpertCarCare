@@ -6,7 +6,7 @@ const FooterOne = ({style_2}: any) => {
   return (
     <>
        <div className="ak-height-125 ak-height-lg-80"></div>
-        <footer className="footer style-1 footer-bg">
+        <footer className="footer style-1 footer-bg" role="contentinfo">
             <div className="container">
 
                 
@@ -47,7 +47,7 @@ const FooterOne = ({style_2}: any) => {
                 }
 
                 <div className="footer-logo">
-                    <img src="assets/img/logo_1.svg" alt="..." />
+                    <img src="assets/img/logo_1.svg" alt="G. Xpert Car Care Logo" />
                     <div className="ak-height-15 ak-height-lg-10"></div>
                 </div>
                 <div className="footer-content">
@@ -57,7 +57,7 @@ const FooterOne = ({style_2}: any) => {
                         <div className="d-flex align-items-center gap-3">
                             <div className="heartbeat-icon">
                                 <a href="tel:(406)555-0120">
-                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
+                                    <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="Call G. Xpert Car Care" /></span>
                                 </a>
                             </div>
                             <a href="tel:(406)555-0120" className="phone text-hover-animaiton white"> (587) 329-2528</a>
@@ -165,7 +165,7 @@ const FooterOne = ({style_2}: any) => {
                 <div className="copy-right">
                     <p className="title  text-hover-animaiton">Copyright {new Date().getFullYear()}, All Right reserved</p>
                     <div className="social-icon">
-                        <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/">
+                        <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/" aria-label="Visit us on Facebook" rel="noopener noreferrer" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                 <g clipPath="url(#clip0_365_2385)">
                                     <path
@@ -180,7 +180,7 @@ const FooterOne = ({style_2}: any) => {
                                 </defs>
                             </svg>
                         </a>
-                        <a href="https://www.instagram.com/g.xpertcarcare/">
+                        <a href="https://www.instagram.com/g.xpertcarcare/" aria-label="Follow us on Instagram" rel="noopener noreferrer" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
                                 <g clipPath="url(#clip0_365_2391)">
                                     <path
@@ -201,7 +201,7 @@ const FooterOne = ({style_2}: any) => {
                                 </defs>
                             </svg>
                         </a>
-                        <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care">
+                        <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care" aria-label="Visit us on Yelp" rel="noopener noreferrer" target="_blank">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="17"

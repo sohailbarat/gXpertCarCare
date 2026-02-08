@@ -7,9 +7,11 @@ import TeamSingle from '@/components/TeamSingle';
 
 
 export const metadata: Metadata = {
-  title: 'Team Single Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Team Member - Certified Technician Profile',
+  description: 'Learn more about our certified auto repair technicians at G. Xpert Car Care in Calgary, AB. Experienced professionals dedicated to quality service.',
+  alternates: {
+    canonical: '/team-single',
+  },
 };
 
 

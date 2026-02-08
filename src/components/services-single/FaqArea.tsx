@@ -63,12 +63,12 @@ const FaqArea = () => {
                 </div>
             </div>
             <div className="images" data-aos="fade-up" data-aos-delay="150">
-                <img src="assets/img/accordion-side-img.jpg" className="img-bg-faq" alt="..." />
+                <img src="assets/img/accordion-side-img.jpg" className="img-bg-faq" alt="G. Xpert Car Care FAQ - auto repair services in Calgary" />
                 <div className="images-info">
                     <div className="d-flex align-items-center gap-3">
                         <div className="heartbeat-icon">
                             <a href="tel:(406)555-0120">
-                                <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="..." /></span>
+                                <span className="ak-heartbeat-btn"><img src="assets/img/phone.svg" alt="Call G. Xpert Car Care" /></span>
                             </a>
                         </div>
                         <h3>(587) 329-2528</h3>
@@ -76,7 +76,7 @@ const FaqArea = () => {
                     <div className="d-flex align-items-center gap-3">
                         <div className="heartbeat-icon">
                             <a href="emailto:g.xpertcare@gmail.com">
-                                <span className="ak-heartbeat-btn"><img src="assets/img/email.svg" alt="..." /></span>
+                                <span className="ak-heartbeat-btn"><img src="assets/img/email.svg" alt="Email G. Xpert Car Care" /></span>
                             </a>
                         </div>
                         <h3>g.xpertcare@gmail.com</h3>

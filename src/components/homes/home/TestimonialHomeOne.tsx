@@ -20,10 +20,10 @@ const TestimonialHomeOne = ({style_2} : any) => {
                 </div>
                 <div className="testimonal-controll" data-aos="fade-left">
                     <button className="testimonal-prev button">
-                        <img src="assets/img/prev.svg" alt="..." /><span> prev</span>
+                        <img src="assets/img/prev.svg" alt="Previous testimonial" /><span> prev</span>
                     </button>
                     <button className="testimonal-next button">
-                        <span>next</span> <img src="assets/img/next.svg" alt=".." />
+                        <span>next</span> <img src="assets/img/next.svg" alt="Next testimonial" />
                     </button>
                 </div>
             </div>
@@ -87,7 +87,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“I went here for an oil leak and can’t express how satisfied I am with the seamless service and the due diligence taken to provide a thorough and time efficient inspection. They diagnosed and fixed my car in under 1.5hrs at half the price I anticipated I’d pay. Definitely will be my #1 mechanic shop in Calgary. Highly recommend👍”</h4>
                             </div>
-                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="Customer testimonial background" className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
@@ -132,7 +132,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“The service I received here was truly exceptional; the staff were attentive and went above and beyond to ensure my experience was memorable. I would wholeheartedly recommend this place to my friends and family, as I believe they would appreciate the same level of care and attention.”</h4>
                             </div>
-                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="Customer testimonial background" className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>   
                     <SwiperSlide className="swiper-slide">
@@ -177,7 +177,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“Professional, friendly customer service, honest, knowledgeable, reliable, and quick service at G Xpert Car Care. Our car was serviced and repaired in less than 48 hours. My husband's car slipped on Stoney causing damages to the vehicle. Gul Ahmad took care of the alignment, oil change, brakes and rotators, replaced the oil pan, replaced damaged tires, replaced the windshield wipers, gave a diagnosis on the condition of the car, and answered any concerns we had.”</h4>
                             </div>
-                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="Customer testimonial background" className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
@@ -222,12 +222,12 @@ const TestimonialHomeOne = ({style_2} : any) => {
                                 </div>
                                 <h4 className="desp">“Had my oil change and tires swapped out. Painless and smooth transaction. Now I know where to bring my vehicle for service. Highly recommended!”</h4>
                             </div>
-                            <img src="assets/img/testimaonial.png" alt="..." className="testimaonial-slide-img" />
+                            <img src="assets/img/testimaonial.png" alt="Customer testimonial background" className="testimaonial-slide-img" />
                         </div>
                     </SwiperSlide>               
                 </Swiper>
                 <div className="testimonal-img">
-                    <img src="assets/img/testimaonial-img-bg.png" alt="..." />
+                    <img src="assets/img/testimaonial-img-bg.png" alt="G. Xpert Car Care satisfied customer reviews" />
                 </div>
             </div>
         </div>

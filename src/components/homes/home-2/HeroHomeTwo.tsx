@@ -17,7 +17,7 @@ const HeroHomeTwo = () => {
         className="ak-slider ak-slider-hero-two-1"> 
           <SwiperSlide className="swiper-slide">
               <div className="ak-hero ak-style1 slide-inner style-two">
-                  <img src="assets/img/hero_two_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                  <img src="assets/img/hero_two_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="G. Xpert Car Care auto repair shop in Calgary, AB" />
                   <div className="container">
                       <div className="hero-slider-info style-two">
                           <div className="slider-info">
@@ -94,7 +94,7 @@ const HeroHomeTwo = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
               <div className="ak-hero ak-style1 slide-inner style-two">
-                  <img src="assets/img/hero_two_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                  <img src="assets/img/hero_two_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="Automotive repair and maintenance services at G. Xpert Car Care Calgary" />
                   <div className="container">
                       <div className="hero-slider-info style-two">
                           <div className="slider-info">
@@ -168,7 +168,7 @@ const HeroHomeTwo = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
               <div className="ak-hero ak-style1  slide-inner style-two">
-                  <img src="assets/img/hero_two_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                  <img src="assets/img/hero_two_slider_bg_1.png" className="ak-hero-bg ak-bg object-cover" alt="Professional car repair services at G. Xpert Car Care" />
                   <div className="container">
                       <div className="hero-slider-info style-two">
                           <div className="slider-info">
@@ -242,7 +242,7 @@ const HeroHomeTwo = () => {
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
               <div className="ak-hero ak-style1 slide-inner style-two">
-                  <img src="assets/img/hero_two_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                  <img src="assets/img/hero_two_slider_bg_2.png" className="ak-hero-bg ak-bg object-cover" alt="Expert automotive maintenance and repair at G. Xpert Car Care Calgary" />
                   <div className="container">
                       <div className="hero-slider-info style-two">
                           <div className="slider-info">

@@ -18,17 +18,19 @@ const HomeOne = () => {
   return (
     <>
       <HeaderOne />
-      <HeroHomeOne />
-      <ServiceHomeOne />
-      <WhoChoosHomeOne />
-      <Service2HomeOne />
-      {/* <VideoHomeOne /> */}
-      {/* <FunfactHomeOne /> */}
-      {/* <ClientsHomeOne /> */}
-      <TestimonialHomeOne />
-      {/* <TeamHomeOne /> */}
-      <PriceHomeOne />
-      {/* <BlogHomeOne /> */}
+      <main id="main-content">
+        <HeroHomeOne />
+        <ServiceHomeOne />
+        <WhoChoosHomeOne />
+        <Service2HomeOne />
+        {/* <VideoHomeOne /> */}
+        {/* <FunfactHomeOne /> */}
+        {/* <ClientsHomeOne /> */}
+        <TestimonialHomeOne />
+        {/* <TeamHomeOne /> */}
+        <PriceHomeOne />
+        {/* <BlogHomeOne /> */}
+      </main>
       <FooterOne />
     </>
   );

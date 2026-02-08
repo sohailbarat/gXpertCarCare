@@ -38,7 +38,7 @@ const HeroHomeOne = () => {
 
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1 slide-inner">
-                    <img src="assets/img/hero_slider_bg_1.jpg" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                    <img src="assets/img/hero_slider_bg_1.jpg" className="ak-hero-bg ak-bg object-cover" alt="G. Xpert Car Care auto repair shop in Calgary, AB" />
                     <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">
@@ -90,7 +90,7 @@ const HeroHomeOne = () => {
             </SwiperSlide> */}
             <SwiperSlide className="swiper-slide">
                 <div className="ak-hero ak-style1  slide-inner">
-                    <img src="assets/img/hero_slider_bg_5.png" className="ak-hero-bg ak-bg object-cover" alt="..." />
+                    <img src="assets/img/hero_slider_bg_5.png" className="ak-hero-bg ak-bg object-cover" alt="Professional car repair and auto services at G. Xpert Car Care" />
                     {/* <div className="container">
                         <div className="hero-slider-info">
                             <div className="slider-info">
@@ -272,7 +272,7 @@ const HeroHomeOne = () => {
             <div className="hero-swiper-pagination"></div>
         </div>
         <div className="social-hero">
-            <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care" className="social-icon1">
+            <a href="https://www.yelp.ca/biz/g-xpert-car-care-calgary?osq=g.xpert+car+care" className="social-icon1" aria-label="Visit us on Yelp" rel="noopener noreferrer" target="_blank">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="17"
@@ -302,7 +302,7 @@ const HeroHomeOne = () => {
                     />
                 </svg>
             </a>
-            <a href="https://www.instagram.com/g.xpertcarcare/" className="social-icon1">
+            <a href="https://www.instagram.com/g.xpertcarcare/" className="social-icon1" aria-label="Follow us on Instagram" rel="noopener noreferrer" target="_blank">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="17"
@@ -330,7 +330,7 @@ const HeroHomeOne = () => {
             </svg>
             </a>
 
-            <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/" className="social-icon1">
+            <a href="https://www.facebook.com/p/G-Xpert-Car-Care-61565121207296/" className="social-icon1" aria-label="Visit us on Facebook" rel="noopener noreferrer" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                     <g clipPath="url(#clip0_64_133)">
                         <path

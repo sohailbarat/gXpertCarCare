@@ -4,9 +4,11 @@ import Wrapper from '@/layouts/Wrapper';
 import BlogSingle from '@/components/blog-single';
 
 export const metadata: Metadata = {
-  title: 'Blog Single Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Blog Post - Car Care Insights',
+  description: 'Read in-depth car care articles and auto repair insights from the experienced team at G. Xpert Car Care in Calgary, AB.',
+  alternates: {
+    canonical: '/blog-single',
+  },
 };
 
 

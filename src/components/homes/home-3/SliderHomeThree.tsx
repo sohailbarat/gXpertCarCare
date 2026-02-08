@@ -31,22 +31,22 @@ const SliderHomeThree = () => {
        modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y, EffectCoverflow]}
       className="team-single-page-slider ak-slider"> 
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_4.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_4.jpg" alt="G. Xpert Car Care team at work in Calgary" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_5.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_5.jpg" alt="G. Xpert Car Care auto repair shop" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_6.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_6.jpg" alt="G. Xpert Car Care mechanic servicing a vehicle" />
               </SwiperSlide> 
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_4.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_4.jpg" alt="G. Xpert Car Care team at work in Calgary" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_5.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_5.jpg" alt="G. Xpert Car Care auto repair shop" />
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
-                  <img className="slide-img" src="assets/img/team_single_page_slider_6.jpg" alt="..." />
+                  <img className="slide-img" src="assets/img/team_single_page_slider_6.jpg" alt="G. Xpert Car Care mechanic servicing a vehicle" />
               </SwiperSlide> 
           <div className="team-single-page-swiper-controll">
               <div className="button-next button-style">

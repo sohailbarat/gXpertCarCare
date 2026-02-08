@@ -4,9 +4,11 @@ import Wrapper from '@/layouts/Wrapper';
 import Gallery from '@/components/gallery';
 
 export const metadata: Metadata = {
-  title: 'Gallery Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Gallery - Our Work & Facility',
+  description: 'Browse photos of our auto repair shop, completed work, and facility at G. Xpert Car Care in Calgary, AB. See the quality of our car repair and maintenance services.',
+  alternates: {
+    canonical: '/gallery',
+  },
 };
 
 

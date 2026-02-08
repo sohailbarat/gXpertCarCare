@@ -5,9 +5,11 @@ import Wrapper from '@/layouts/Wrapper';
 import ServiceTwo from '@/components/service-two';
 
 export const metadata: Metadata = {
-  title: 'Service Two Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'All Services - Auto Repair & Car Maintenance',
+  description: 'Browse all automotive repair and maintenance services offered by G. Xpert Car Care in Calgary, AB. Certified technicians with 20+ years of experience.',
+  alternates: {
+    canonical: '/service-two',
+  },
 };
 
 

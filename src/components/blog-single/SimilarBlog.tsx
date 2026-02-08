@@ -20,7 +20,7 @@ const SimilarBlog = () => {
             <div className="blog-card" data-aos="fade-up">
                 <Link href="/blog-single">
                     <div className="blog-header-info">
-                        <img src="assets/img/blog_4.jpg" alt="..." />
+                        <img src="assets/img/blog_4.jpg" alt="Vehicle health transformation blog article" />
                     </div>
                 </Link>
                 <div className="blog-body-info">
@@ -35,7 +35,7 @@ const SimilarBlog = () => {
             <div className="blog-card" data-aos="fade-up" data-aos-delay="50">
                 <Link href="/blog-single">
                     <div className="blog-header-info">
-                        <img src="assets/img/blog_5.jpg" alt="..." />
+                        <img src="assets/img/blog_5.jpg" alt="Car care tips and vehicle maintenance blog" />
                     </div>
                 </Link>
                 <div className="blog-body-info">
@@ -50,7 +50,7 @@ const SimilarBlog = () => {
             <div className="blog-card" data-aos="fade-up" data-aos-delay="100">
                 <Link href="/blog-single">
                     <div className="blog-header-info">
-                        <img src="assets/img/blog_6.jpg" alt="..." />
+                        <img src="assets/img/blog_6.jpg" alt="Vehicle health and maintenance advice article" />
                     </div>
                 </Link>
                 <div className="blog-body-info">

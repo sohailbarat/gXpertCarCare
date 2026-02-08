@@ -11,7 +11,7 @@ const SingleTeamAbout = () => {
     <div className="container">
         <div className="ceo-content type_2">
             <div className="left-info" data-aos="fade-left" data-aos-delay="800">
-                <img src="assets/img/ceo.jpg" alt="..." className="img-fluid" />
+                <img src="assets/img/ceo.jpg" alt="Michael Jack, Founder of G. Xpert Car Care" className="img-fluid" />
             </div>
             <div className="right-info" data-aos="fade-right" data-aos-delay="800">
                 <div className="ceo-title">

@@ -4,9 +4,11 @@ import Faq from '@/components/faq';
 import Wrapper from '@/layouts/Wrapper';  
 
 export const metadata: Metadata = {
-  title: 'Faq Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'FAQ - Frequently Asked Questions',
+  description: 'Find answers to frequently asked questions about car repair, oil changes, tire services, wheel alignment, and vehicle inspections at G. Xpert Car Care in Calgary, AB.',
+  alternates: {
+    canonical: '/faq',
+  },
 };
 
 

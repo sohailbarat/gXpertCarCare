@@ -27,7 +27,7 @@ const AppointmentFeatur = () => {
                 <div className="service-item">
                     <div className="heartbeat-icon">
                         <a href="#">
-                            <span className="ak-heartbeat-btn"><img src="assets/img/speedome.svg" alt="..." /></span>
+                            <span className="ak-heartbeat-btn"><img src="assets/img/speedome.svg" alt="Vehicle performance check icon" /></span>
                         </a>
                     </div>
                     <div className="service-info">
@@ -48,7 +48,7 @@ const AppointmentFeatur = () => {
                 <div className="service-item">
                     <div className="heartbeat-icon">
                         <a href="#">
-                            <span className="ak-heartbeat-btn"><img src="assets/img/car-repair.svg" alt="..." /></span>
+                            <span className="ak-heartbeat-btn"><img src="assets/img/car-repair.svg" alt="Auto repair service icon" /></span>
                         </a>
                     </div>
                     <div className="service-info">
@@ -69,7 +69,7 @@ const AppointmentFeatur = () => {
                 <div className="service-item">
                     <div className="heartbeat-icon">
                         <a href="#">
-                            <span className="ak-heartbeat-btn"><img src="assets/img/car.svg" alt="..." /></span>
+                            <span className="ak-heartbeat-btn"><img src="assets/img/car.svg" alt="Fleet services icon" /></span>
                         </a>
                     </div>
                     <div className="service-info">

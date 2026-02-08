@@ -25,7 +25,7 @@ const BlogHomeOne = () => {
                     <div className="blog-card" data-aos="fade-up" data-aos-delay="100">
                         <Link href="/blog-single">
                             <div className="blog-header-info">
-                                <img src="assets/img/blog_3.jpg" alt="..." />
+                                <img src="assets/img/blog_3.jpg" alt="The importance of regular car maintenance" />
                             </div>
                         </Link>
                         <div className="blog-body-info">
@@ -47,7 +47,7 @@ const BlogHomeOne = () => {
                     <div className="blog-card" data-aos="fade-up" data-aos-delay="100">
                         <Link href="/blog-single">
                             <div className="blog-header-info">
-                                <img src="assets/img/blog_1.jpg" alt="..." />
+                                <img src="assets/img/blog_1.jpg" alt="Essential car care tips for road reliability" />
                             </div>
                         </Link>
                         <div className="blog-body-info">
@@ -67,7 +67,7 @@ const BlogHomeOne = () => {
                     <div className="blog-card" data-aos="fade-up" data-aos-delay="100">
                         <Link href="/blog-single">
                             <div className="blog-header-info">
-                                <img src="assets/img/blog_2.jpg" alt="..." />
+                                <img src="assets/img/blog_2.jpg" alt="Transform your vehicle health with proper care" />
                             </div>
                         </Link>
                         <div className="blog-body-info">

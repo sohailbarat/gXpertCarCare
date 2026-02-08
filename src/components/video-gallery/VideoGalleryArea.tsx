@@ -35,7 +35,7 @@ const VideoGalleryArea = () => {
                                 </span>
                             </span>
                         </a>
-                        <img src="assets/img/video_gallery_1.jpg" className="gallery-img" alt="..." />
+                        <img src="assets/img/video_gallery_1.jpg" className="gallery-img" alt="G. Xpert Car Care video gallery - auto repair services" />
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@ const VideoGalleryArea = () => {
                                 </span>
                             </span>
                         </a>
-                        <img src="assets/img/video_gallery_2.jpg" className="gallery-img" alt="..." />
+                        <img src="assets/img/video_gallery_2.jpg" className="gallery-img" alt="G. Xpert Car Care video gallery - vehicle maintenance" />
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const VideoGalleryArea = () => {
                                 </span>
                             </span>
                         </a>
-                        <img src="assets/img/video_gallery_3.jpg" className="gallery-img" alt="..." />
+                        <img src="assets/img/video_gallery_3.jpg" className="gallery-img" alt="G. Xpert Car Care video gallery - professional car care" />
                     </div>
                 </div>
             </div>
@@ -95,7 +95,7 @@ const VideoGalleryArea = () => {
                                 </span>
                             </span>
                         </a>
-                        <img src="assets/img/video_gallery_4.jpg" className="gallery-img" alt="..." />
+                        <img src="assets/img/video_gallery_4.jpg" className="gallery-img" alt="G. Xpert Car Care video gallery - Calgary auto shop" />
                     </div>
                 </div>
             </div>

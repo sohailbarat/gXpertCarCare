@@ -38,8 +38,8 @@ const ChoosHomeThree = () => {
                 <Link href="/about" className="common-btn"> View More </Link>
             </div>
             <div className="choose-us-img" data-aos="fade-up" data-aos-delay="150">
-                <img src="assets/img/choose-us_2.png" alt="..." />
-                <img className="circle-img" src="assets/img/Circle.png" alt="..." />
+                <img src="assets/img/choose-us_2.png" alt="Why choose G. Xpert Car Care for auto repair in Calgary" />
+                <img className="circle-img" src="assets/img/Circle.png" alt="Decorative circle graphic" />
             </div>
         </div>
     </section>

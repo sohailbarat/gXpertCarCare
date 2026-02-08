@@ -5,9 +5,12 @@ import Wrapper from '@/layouts/Wrapper';
 
 
 export const metadata: Metadata = {
-  title: 'Error Car Repair & Auto Services Next js Template',
-  description: 'The official Next.js Course Dashboard, built with App Router.',
-  metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
+  title: 'Page Not Found - 404',
+  description: 'The page you are looking for could not be found. Return to G. Xpert Car Care homepage for auto repair services in Calgary, AB.',
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 

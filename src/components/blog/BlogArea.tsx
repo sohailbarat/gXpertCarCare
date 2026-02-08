@@ -19,7 +19,7 @@ const BlogArea = () => {
                 <Link href="/blog-single" className="more-btn">READ MORE</Link>
             </div>
             <div className="feature-img" data-aos="fade-left" data-aos-delay="600">
-                <img src="assets/img/blog-show.jpg" className="ak-bg" alt="..." />
+                <img src="assets/img/blog-show.jpg" className="ak-bg" alt="Driving with confidence through routine car maintenance" />
             </div>
         </div>
     </section>
@@ -32,7 +32,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_4.jpg" alt="..." />
+                            <img src="assets/img/blog_4.jpg" alt="The importance of regular car maintenance" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -48,7 +48,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_5.jpg" alt="..." />
+                            <img src="assets/img/blog_5.jpg" alt="Essential car care tips for road reliability" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -65,7 +65,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_6.jpg" alt="..." />
+                            <img src="assets/img/blog_6.jpg" alt="Transform your vehicle health with proper care" />
                         </div>
                     </Link>
 
@@ -83,7 +83,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_7.jpg" alt="..." />
+                            <img src="assets/img/blog_7.jpg" alt="Decoding the check engine light and engine diagnostics" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -100,7 +100,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_8.jpg" alt="..." />
+                            <img src="assets/img/blog_8.jpg" alt="Unlocking the secrets of routine car maintenance" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -117,7 +117,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_9.jpg" alt="..." />
+                            <img src="assets/img/blog_9.jpg" alt="Identifying and resolving common car noises" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -134,7 +134,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_7.jpg" alt="..." />
+                            <img src="assets/img/blog_7.jpg" alt="Decoding the check engine light and engine diagnostics" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -151,7 +151,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_8.jpg" alt="..." />
+                            <img src="assets/img/blog_8.jpg" alt="Unlocking the secrets of routine car maintenance" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -168,7 +168,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_9.jpg" alt="..." />
+                            <img src="assets/img/blog_9.jpg" alt="Identifying and resolving common car noises" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -185,7 +185,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_4.jpg" alt="..." />
+                            <img src="assets/img/blog_4.jpg" alt="The importance of regular car maintenance" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -201,7 +201,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_5.jpg" alt="..." />
+                            <img src="assets/img/blog_5.jpg" alt="Essential car care tips for road reliability" />
                         </div>
                     </Link>
                     <div className="blog-body-info">
@@ -218,7 +218,7 @@ const BlogArea = () => {
                 <div className="blog-card" data-aos="fade-up">
                     <Link href="/blog-single">
                         <div className="blog-header-info">
-                            <img src="assets/img/blog_6.jpg" alt="..." />
+                            <img src="assets/img/blog_6.jpg" alt="Transform your vehicle health with proper care" />
                         </div>
                     </Link>
 
