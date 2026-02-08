@@ -201,7 +201,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${oxanium.variable} ${sarabun.variable}`}>
+    <html lang="en" className={`${oxanium.variable} ${sarabun.variable}`} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.svg" />
         <link rel="preload" href="/assets/img/hero_slider_bg_1.jpg" as="image" />

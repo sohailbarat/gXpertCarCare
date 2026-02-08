@@ -7,8 +7,8 @@
   gap: 30px;
   &.style-two {
     @media screen and (min-width: 1450px) {
-      width: 110%;
-      gap: 100px;
+      width: 100%;
+      gap: 80px;
     }
     align-items: center;
     .contact-title-section {
@@ -185,15 +185,18 @@
 @media screen and (max-width: 767px) {
   .contact-info {
     flex-direction: column;
+    gap: 20px;
     .left-info {
       width: 100%;
+      max-width: 100%;
     }
     .right-info {
       width: 100%;
       .info-card {
-        padding: 45px 15px;
+        padding: 30px 15px;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
+        font-size: 18px;
       }
     }
   }
@@ -203,5 +206,15 @@
         padding: 25px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contact-info .right-info .info-card {
+    padding: 20px 15px;
+    font-size: 16px;
+  }
+  .contact-content .contact-form .from-textarea {
+    margin-bottom: 25px;
   }
 }

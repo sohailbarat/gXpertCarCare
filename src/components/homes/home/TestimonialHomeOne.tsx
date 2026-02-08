@@ -37,7 +37,7 @@ const TestimonialHomeOne = ({style_2} : any) => {
                 speed={800}
                 effect="fade"
                 autoplay={false}
-                slidesPerView="auto"
+                slidesPerView={1}
                 pagination={{
                 el: ".ak-pagination",
                 clickable: true,

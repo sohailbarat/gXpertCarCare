@@ -656,6 +656,17 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .top-main-menu li > a {
+    font-size: 36px;
+  }
+  .ak-nav_black_section ul li {
+    font-size: 32px;
+    margin-top: 25px;
+    line-height: 50px;
+  }
+}
+
 @media screen and (max-width: 575px) {
   .ak-site-branding {
     max-width: 150px;
@@ -678,6 +689,14 @@
   }
   .ak-main-header-right {
     display: none;
+  }
+  .top-main-menu li > a {
+    font-size: 28px;
+  }
+  .ak-nav_black_section ul li {
+    font-size: 26px;
+    margin-top: 20px;
+    line-height: 40px;
   }
 }
 

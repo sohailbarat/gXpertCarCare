@@ -44,6 +44,44 @@
   background-color: #ffffff4a;
 }
 
+@media screen and (max-width: 991px) {
+  .cta {
+    .cta-info {
+      max-width: 100%;
+      .cta-title {
+        font-size: 32px;
+      }
+      .cta-desp {
+        max-width: 100%;
+      }
+    }
+    .border-wh {
+      margin-right: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cta {
+    .cta-info {
+      .cta-title {
+        font-size: 26px;
+      }
+      .cta-desp {
+        font-size: 14px;
+        margin-bottom: 25px;
+      }
+      .cta-btn {
+        font-size: 16px;
+        padding: 10px 16px;
+      }
+    }
+    .border-wh {
+      margin-right: 20px;
+    }
+  }
+}
+
 .testimonal-title {
   position: relative;
   .border-pr {

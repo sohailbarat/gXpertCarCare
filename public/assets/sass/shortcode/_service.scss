@@ -65,9 +65,54 @@
   .services-content {
     flex-direction: column;
     gap: 50px;
+    max-width: 100%;
     .service {
       gap: 40px;
     }
+    .ak-section-subtitle {
+      padding-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .service-progress-card-position-changes {
+    bottom: 60px;
+  }
+  .service-progress-card {
+    &.style-three .service-item {
+      padding: 0px 20px 0px 0px;
+    }
+    .progress-item {
+      gap: 20px;
+    }
+    .service-item {
+      padding: 30px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .service-progress-card-position-changes {
+    bottom: 30px;
+  }
+  .service-progress-card {
+    .progress-item {
+      flex-direction: column;
+      gap: 15px;
+    }
+    &.style-three .service-item {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .service-progress-card-position-changes {
+    bottom: 0;
+  }
+  .service-progress-card .service-item {
+    padding: 20px 15px;
   }
 }
 

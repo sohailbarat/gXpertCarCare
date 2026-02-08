@@ -284,6 +284,26 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .team-card {
+    height: 350px;
+    margin-bottom: 50px;
+  }
+  .team-contant {
+    gap: 30px;
+  }
+  .play-slider-heading {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .team-card {
+    height: 280px;
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .ceo-content {
     gap: 50px;

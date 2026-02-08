@@ -36,7 +36,7 @@ export default function LazyBelowFold() {
             <PriceHomeOne />
           </>
         ) : (
-          <div style={{ minHeight: '1200px' }} />
+          <div style={{ minHeight: '50vh' }} />
         )}
       </div>
       {isVisible && <FooterOne />}

@@ -21,7 +21,7 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
-  grid-auto-rows: minmax(350px, 200px);
+  grid-auto-rows: minmax(200px, 350px);
   grid-auto-flow: dense;
 
   .item {
@@ -67,6 +67,27 @@
   .big {
     grid-column: span 2;
     grid-row: span 2;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    grid-auto-rows: minmax(200px, 250px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(220px, auto);
+    .vertical,
+    .big {
+      grid-column: span 1;
+    }
+    .big {
+      grid-row: span 1;
+    }
   }
 }
 

@@ -156,12 +156,12 @@
   .ak-testimonal {
     background: transparent;
     &.style-three {
-      padding: 40px 10px;
+      padding: 30px 10px;
       .testimonal-info.ak-style1 {
         .slider-info {
           margin: 0px;
           .desp {
-            font-size: 22px;
+            font-size: 18px;
           }
         }
       }
@@ -169,7 +169,27 @@
     .testimonal-info.ak-style1 {
       .slider-info {
         margin: 0px;
+        .desp {
+          font-size: 18px;
+          line-height: 140%;
+        }
       }
     }
+    .testimonal-img {
+      display: none;
+    }
+  }
+  .ak-testimonal-controll .testimonal-controll {
+    gap: 10px;
+    .button {
+      font-size: 14px;
+      padding: 5px 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ak-testimonal .testimonal-info.ak-style1 .slider-info .desp {
+    font-size: 16px;
   }
 }

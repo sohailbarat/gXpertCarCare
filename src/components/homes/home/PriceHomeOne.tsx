@@ -29,8 +29,12 @@ const PriceHomeOne = ({style_2}: any) => {
                    delay: 3000,
                    disableOnInteraction: false,
                  }}
-                 slidesPerView="auto"
-                 centeredSlides={true}
+                 slidesPerView={1}
+                 spaceBetween={20}
+                 breakpoints={{
+                   768: { slidesPerView: 2, spaceBetween: 20 },
+                   1200: { slidesPerView: 3, spaceBetween: 30 },
+                 }}
                  pagination={{
                    clickable: true,
                  }}

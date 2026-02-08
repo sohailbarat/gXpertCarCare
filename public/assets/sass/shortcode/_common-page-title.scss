@@ -8,3 +8,21 @@
     text-transform: uppercase;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .common-page-title {
+    margin-bottom: 20px;
+    .page-title {
+      font-size: 28px;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .common-page-title {
+    margin-bottom: 15px;
+    .page-title {
+      font-size: 24px;
+    }
+  }
+}
