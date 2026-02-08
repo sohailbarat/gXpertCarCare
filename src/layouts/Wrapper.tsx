@@ -1,8 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import ScrollToTop from "../common/ScrollToTop";
- 
+import dynamic from "next/dynamic";
+
+// Lazy-load ScrollToTop - only needed after user scrolls
+const ScrollToTop = dynamic(() => import("../common/ScrollToTop"), { ssr: false });
+
 const Wrapper = ({ children }: any) => {
 	useEffect(() => {
 		// Dynamically import Bootstrap JS to avoid blocking main thread

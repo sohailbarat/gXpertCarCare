@@ -1,3 +1,4 @@
+import 'react-18-image-lightbox/src/style.css';
 import React from "react";
 import Lightbox from "react-18-image-lightbox";
 

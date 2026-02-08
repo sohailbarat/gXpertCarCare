@@ -1,5 +1,7 @@
 "use client"; 
 
+import 'swiper/css';
+import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const PriceHomeOne = ({style_2}: any) => {

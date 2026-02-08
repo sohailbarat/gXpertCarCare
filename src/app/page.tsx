@@ -2,7 +2,6 @@ import React from "react";
 import { Metadata } from "next";
 import Wrapper from "@/layouts/Wrapper";
 import HomeOne from "@/components/homes/home";
-import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: 'G. Xpert Car Care | Auto Repair & Car Services in Calgary, AB',

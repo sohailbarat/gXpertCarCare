@@ -1,19 +1,8 @@
 
-// Swiper - only import core + needed modules instead of full bundle
-@import "swiper/css";
-@import "swiper/css/navigation";
-@import "swiper/css/pagination";
-@import "swiper/css/autoplay";
+// Bootstrap - only grid, utilities, and reboot (saves ~87KB vs full bootstrap)
+@import "bootstrap/dist/css/bootstrap-reboot.min.css";
+@import "bootstrap/dist/css/bootstrap-grid.min.css";
+@import "bootstrap/dist/css/bootstrap-utilities.min.css";
 
-// Modal libraries (only used on specific pages, but kept for compatibility)
-@import 'react-18-image-lightbox/src/style.css';
-@import 'node_modules/react-modal-video/scss/modal-video.scss';
-
-// Bootstrap CSS (grid/utilities)
-@import "../../public/assets/css/plugins/bootstrap.min.css";
-
-// FontAwesome removed - not used anywhere in the codebase
-
-// App styles
-@import "../../public/assets/css/style.css";
+// App styles (SCSS source only)
 @import "../../public/assets/sass/style.scss";
